@@ -1,0 +1,7 @@
+{
+  "n": 70,
+  "stim_version": "1.16.0",
+  "canonical_stabilizers_equal": true,
+  "checked_count": 70,
+  "verification": "Original full 70q Clifford prefix versus independently simulated graph + local Clifford reconstruction; global phase irrelevant."
+}

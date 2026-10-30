@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-30",
+  "purpose": "Separate robustness experiment with smaller clipping bias; NOT a retuning or replacement of cap1 result",
+  "cap": 8,
+  "samples_per_gpu": 863,
+  "seeds": [
+    271828,
+    271829
+  ],
+  "devices": 2,
+  "n_total": 1726,
+  "time_limit_seconds": 1800,
+  "fixed_before_cap8_output": true,
+  "all_results_will_be_reported": true,
+  "validation": "all accepted probabilities independently reversed-order complex128",
+  "tail_caveat": "No Porter-Thomas assumption used to produce or score samples; TV formula under PT is not a guarantee for this instance",
+  "inference": "For both cap1 and cap8, pre-fixed clipped-XEB K=4 Hoeffding one-sided alpha=0.025 each; simultaneous95 Bonferroni; FP64 errors inspected separately"
+}

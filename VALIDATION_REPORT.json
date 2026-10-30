@@ -1,0 +1,11 @@
+{
+  "CPU_reproduction_passed": true,
+  "all_byte_identical_artifact_hashes_verified": true,
+  "cap1_RNG_and_decisions_replayed": 2769,
+  "cap1_all_FP64_decisions_preserved": true,
+  "cap8_both_RNG_streams_and_decisions_replayed": true,
+  "cap8_combined_XEB": 1.0710865456800647,
+  "independent_public_audit_probability_JSONLs_byte_identical": 13,
+  "GPU_reproduction_not_rerun_during_packaging": true,
+  "release_reproduction_outputs_omitted": true
+}

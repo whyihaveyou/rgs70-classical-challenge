@@ -1,0 +1,11 @@
+{
+"seconds":155,
+"iterations":24280650,
+"accepted":13822255,
+"peak_rejected":5183762,
+"baseline_cost":9982443517,
+"best_cost":7919632381,
+"best_maxrank":30,
+"seed":20261030,
+"budget_seconds":155
+}

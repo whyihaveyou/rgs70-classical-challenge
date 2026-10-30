@@ -1,0 +1,25 @@
+{
+  "scope": "Selected release directory only; no credential/config discovery",
+  "text_files_scanned": 83,
+  "patterns": [
+    "private_absolute_paths",
+    "private_cluster_identifiers",
+    "credential_material"
+  ],
+  "hits": [],
+  "excluded_binary_types": [
+    "npy",
+    "npz",
+    "zip"
+  ],
+  "binary_inputs": "Known graph/order arrays and public IBM sample archive, provenance in ORIGINAL_HASHES.json",
+  "excluded_artifacts": [
+    "GPU Born prototypes",
+    "private cluster runners",
+    "raw cluster logs",
+    "compiled optimizer binary",
+    "transport archives"
+  ],
+  "raw_probability_records_preserved": true,
+  "independent_second_reviewer": "passed; 13 numerical JSONLs additionally compared byte-for-byte"
+}

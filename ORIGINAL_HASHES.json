@@ -1,0 +1,392 @@
+{
+  "note": "Original artifact SHA256 before packaging; source paths are repository-relative; byte-identical data preserved unless explicitly marked",
+  "files": [
+    {
+      "public_path": "work/rgs_attack/graph_sampler.py",
+      "original_sha256": "5cc8c2b9d3f478b620afc562053fd84447fee1c1c84beae0bc24f05c9612e78f",
+      "byte_identical": true
+    },
+    {
+      "public_path": "work/rgs_attack/independent_stim_check.py",
+      "original_sha256": "432a82048a16eb1c344c1c5e3234fa31f411f56c3de3614b0de080985f97b209",
+      "byte_identical": false,
+      "modification": "Public packaging only: write validation output to reproduced/ instead of overwriting frozen stim_validation.json; validation algorithm unchanged."
+    },
+    {
+      "public_path": "work/rgs_attack/scan_oracle.py",
+      "original_sha256": "741ed61352d0141b7f9e2991c827f662410c02892022a78cd8fa4b9b797db37c",
+      "byte_identical": true
+    },
+    {
+      "public_path": "work/rgs_attack/rejection_sampler.py",
+      "original_sha256": "21473d1b391cb57b7881fe4329c03863167bad0d54c0d2e8bb8c3844eb9402a0",
+      "byte_identical": true
+    },
+    {
+      "public_path": "work/rgs_attack/rejection_selfcheck.py",
+      "original_sha256": "7a66c67627bc9c7961a6d0910168f19a1102860a3fb53891ab96da5bbccc5e1a",
+      "byte_identical": true
+    },
+    {
+      "public_path": "work/rgs_attack/analyze_challenge.py",
+      "original_sha256": "c18ff6afac389e4ec6d2090f76778f21dc01b371a3fabb7d22c766c1ed75d97d",
+      "byte_identical": true
+    },
+    {
+      "public_path": "work/rgs_attack/audit_all_proposals_fp64.py",
+      "original_sha256": "ac8c32e01f6c42f640af115c3f63c6f5613cb1cd6f9e0279bc2454873b23f129",
+      "byte_identical": true
+    },
+    {
+      "public_path": "work/rgs_attack/benchmark_scan_orders.py",
+      "original_sha256": "5e34cb582367e72ca3a6eb6a8fca58cb9a843b97183f814e8940c938161ea360",
+      "byte_identical": true
+    },
+    {
+      "public_path": "work/rgs_attack/search_width.py",
+      "original_sha256": "3f3d18faac96a18966ea689063f6278840c19de7c6966a56eabd20a8f6466bf6",
+      "byte_identical": true
+    },
+    {
+      "public_path": "work/rgs_attack/rgs_graph.npz",
+      "original_sha256": "4d6879f0acaece72f83d0e46a122df7a9471671bc90a454e7dc88e11e229c7b0",
+      "byte_identical": true
+    },
+    {
+      "public_path": "work/rgs_attack/scan_order.npy",
+      "original_sha256": "b9613a3c07c0cac3d16abfd88482abe1c6ce1b08bd8684905cefeb042a548c45",
+      "byte_identical": true
+    },
+    {
+      "public_path": "work/rgs_attack/scan_order_optimized.npy",
+      "original_sha256": "0467a3cb93ead4cfaf3ad1017a1b30ffec82a11900eb3f70ca33e586b09be302",
+      "byte_identical": true
+    },
+    {
+      "public_path": "work/rgs_attack/scan_width.json",
+      "original_sha256": "a5e1d0e19e0235290a5d890bf2afc3d3f8ed87462e10f09d4d90f8c1d9968f55",
+      "byte_identical": true
+    },
+    {
+      "public_path": "work/rgs_attack/stim_validation.json",
+      "original_sha256": "7008bbadad7f6380d95a844eb7d5b08aac1747e46459db675228781a31c3d048",
+      "byte_identical": true
+    },
+    {
+      "public_path": "work/rgs_attack/rejection_validation.json",
+      "original_sha256": "0995c3789d559fa1a030ce8602a68f0d1ade61823458c3956ac054ed372b593f",
+      "byte_identical": true
+    },
+    {
+      "public_path": "work/rgs_attack/audit.json",
+      "original_sha256": "36a7b18be4e310b21a895b8714cea1c1624c3f78c3135f0633a195b9880d2209",
+      "byte_identical": true
+    },
+    {
+      "public_path": "work/rgs_attack/ibm_samples.zip",
+      "original_sha256": "261b976e3f6e13100d6c507a42bb352ac06f8deb4ca042265993c3e1b7583425",
+      "byte_identical": true
+    },
+    {
+      "public_path": "work/rgs_attack/ibm_samples_q0left.jsonl",
+      "original_sha256": "9df3556e2271cda5d2ca5985df259aa04294e7065429a1d253d31d12afdf560a",
+      "byte_identical": true
+    },
+    {
+      "public_path": "work/rgs_attack/upstream_scan/LICENSE",
+      "original_sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+      "byte_identical": true
+    },
+    {
+      "public_path": "work/rgs_attack/upstream_scan/gpu_kernel.py",
+      "original_sha256": "10a3c6af05d98b47bca016d50ac8b12973655977ee45715a1d2d8af35606628d",
+      "byte_identical": true
+    },
+    {
+      "public_path": "work/rgs_attack/upstream_scan/gpu_kernel_fp64.py",
+      "original_sha256": "54c332eee08ea322ad714d836e542a2d321c542f417eac18680e3a8654521d69",
+      "byte_identical": true
+    },
+    {
+      "public_path": "work/rgs_attack/upstream_scan/NOTICE",
+      "original_sha256": "98c2997933df4db1e03fb99c23638c17c8ccdee2029f203a38daad44192d9967",
+      "byte_identical": true
+    },
+    {
+      "public_path": "work/rgs_attack/upstream_scan/scan_plan.py",
+      "original_sha256": "0252480a785530c18b5496d97e4b6cbd113f9465f1c46acd4f38573c43d2e8e2",
+      "byte_identical": true
+    },
+    {
+      "public_path": "work/rgs_attack/cap1_archive/challenge_start_unix.txt",
+      "original_sha256": "94521a34b9fca872f9599e7e59f65e83c4a3f264f045eb6ba6fa0233fd008cb4",
+      "byte_identical": true
+    },
+    {
+      "public_path": "work/rgs_attack/cap1_archive/ibm_scored_fp64.jsonl",
+      "original_sha256": "2059aa0494d1bdb2f33bee32986be736c6a1a07d61d57184119b61c80571dab1",
+      "byte_identical": true
+    },
+    {
+      "public_path": "work/rgs_attack/cap1_archive/capped1726.jsonl",
+      "original_sha256": "85914353bf83f7bfe75220e04028fe04ad3f6deb424e9a5469e117b532decf92",
+      "byte_identical": true
+    },
+    {
+      "public_path": "work/rgs_attack/cap1_archive/challenge_end_unix.txt",
+      "original_sha256": "a816a852fea4c9411c3669658a99e294d90d3eb8ec201b92bc5a1c363568abcb",
+      "byte_identical": true
+    },
+    {
+      "public_path": "work/rgs_attack/cap1_archive/analyze_challenge.py",
+      "original_sha256": "c18ff6afac389e4ec6d2090f76778f21dc01b371a3fabb7d22c766c1ed75d97d",
+      "byte_identical": true
+    },
+    {
+      "public_path": "work/rgs_attack/cap1_archive/challenge_fp64_selftest.jsonl",
+      "original_sha256": "6efbe164c0ae9a1f7b9a8493a4a25a362898bfee1ffab13d3b716afbe662ad4e",
+      "byte_identical": true
+    },
+    {
+      "public_path": "work/rgs_attack/cap1_archive/capped1726.jsonl.accepted.jsonl",
+      "original_sha256": "64684aae4d4df9720abdd7da2cb07a3bb3c45f869997d65e546f25356fc1467e",
+      "byte_identical": true
+    },
+    {
+      "public_path": "work/rgs_attack/cap1_archive/uniform_scored_fp64.jsonl",
+      "original_sha256": "81f7eedc4fd09475b51cb4c3d69a1035371126645076ce7cc35e9ceeeb964d53",
+      "byte_identical": true
+    },
+    {
+      "public_path": "work/rgs_attack/cap1_archive/challenge_hardware.txt",
+      "original_sha256": "97094231314f3e23882607c3b04d0b111ca5772037509cbd4d37cbdeb3020fbc",
+      "byte_identical": true
+    },
+    {
+      "public_path": "work/rgs_attack/cap1_archive/scored_fp64.jsonl",
+      "original_sha256": "db1d5e2f903d5c2b203088cc2e24ca4e0606ca61d6cd1c97e3d12e7ac8f11008",
+      "byte_identical": true
+    },
+    {
+      "public_path": "work/rgs_attack/cap1_archive/challenge_manifest.json",
+      "original_sha256": "da26b49846eb7c970f72f63441a6562a8de3b81271a66b8b32d64af37869e902",
+      "byte_identical": true
+    },
+    {
+      "public_path": "work/rgs_attack/cap1_archive/analysis/summary.json",
+      "original_sha256": "36c67ecf0920b4a63904d65227231549d748cffc5a4a1f78bda42da1328f41f0",
+      "byte_identical": true
+    },
+    {
+      "public_path": "work/rgs_attack/cap1_archive/analysis/proposal_audit.csv",
+      "original_sha256": "184692a70db35418eb787366bc287e69391a499d268c8f42db2802880efe83d9",
+      "byte_identical": true
+    },
+    {
+      "public_path": "work/rgs_attack/cap1_archive/analysis/accepted_scores.csv",
+      "original_sha256": "9f87ef36de4067486029950644408a406f181a3151b1d1ccd02ecbcb3be57c58",
+      "byte_identical": true
+    },
+    {
+      "public_path": "work/rgs_attack/cap8_archive/cap8_scored0.jsonl",
+      "original_sha256": "e5a4ffd4fda85657521cfd7556c88480f0cc02c52812d9d0a5e8ab95d53feb20",
+      "byte_identical": true
+    },
+    {
+      "public_path": "work/rgs_attack/cap8_archive/cap8_part0.jsonl",
+      "original_sha256": "2ff22bcb69353c25b3a9237aa0a33068b2726544b3d5e51dc8e4af8f5a078354",
+      "byte_identical": true
+    },
+    {
+      "public_path": "work/rgs_attack/cap8_archive/cap8_hardware.txt",
+      "original_sha256": "d6593a1883785e203e50567bb8bbe90fa5d8c363eda3e210a4f87d3d0552df63",
+      "byte_identical": true
+    },
+    {
+      "public_path": "work/rgs_attack/cap8_archive/analyze_challenge.py",
+      "original_sha256": "c18ff6afac389e4ec6d2090f76778f21dc01b371a3fabb7d22c766c1ed75d97d",
+      "byte_identical": true
+    },
+    {
+      "public_path": "work/rgs_attack/cap8_archive/cap8_part1.jsonl",
+      "original_sha256": "bfc9e3d50d76cc7377d8373e5532db6fc7c02eb265d9c53c71d056b50887e1e9",
+      "byte_identical": true
+    },
+    {
+      "public_path": "work/rgs_attack/cap8_archive/cap8_scored1.jsonl",
+      "original_sha256": "8bfc7c9b776cd011b6125f12f8b4ac2d1188bacf27c716e9b6c7e250a95a6bf3",
+      "byte_identical": true
+    },
+    {
+      "public_path": "work/rgs_attack/cap8_archive/cap8_start_unix.txt",
+      "original_sha256": "b6ae95026a0ccc1be798c6317a13fb8797cf408b6473e162368203d36fb4345c",
+      "byte_identical": true
+    },
+    {
+      "public_path": "work/rgs_attack/cap8_archive/cap8_manifest.json",
+      "original_sha256": "dafb225181d09d944920d8fc7bf0cb86a46a870ce4a4df3a2dda75237895045a",
+      "byte_identical": true
+    },
+    {
+      "public_path": "work/rgs_attack/cap8_archive/cap8_part0.jsonl.accepted.jsonl",
+      "original_sha256": "def6766adc343f9faaa907624cbcb8442004440c6d2098692c01620a5e39b5ea",
+      "byte_identical": true
+    },
+    {
+      "public_path": "work/rgs_attack/cap8_archive/combined_summary.json",
+      "original_sha256": "cd87c119b57e779e12539eca1b2df601901d78781c15ef0abc1aa7ee01fb5a03",
+      "byte_identical": true
+    },
+    {
+      "public_path": "work/rgs_attack/cap8_archive/cap8_part1.jsonl.accepted.jsonl",
+      "original_sha256": "248fdeada536180bc6cf8f470b97becef309fd1ed31709547b702e045f9c052f",
+      "byte_identical": true
+    },
+    {
+      "public_path": "work/rgs_attack/cap8_archive/cap8_end_unix.txt",
+      "original_sha256": "1e10e74c06ab85946566c364838327a9f158b583a62f121e50727d6608cb4de0",
+      "byte_identical": true
+    },
+    {
+      "public_path": "work/rgs_attack/cap8_archive/analysis0/summary.json",
+      "original_sha256": "15841e4772857baefeeafd59ff4f3631b72ad46bc4f00b1708fbe4725f60e85a",
+      "byte_identical": true
+    },
+    {
+      "public_path": "work/rgs_attack/cap8_archive/analysis0/proposal_audit.csv",
+      "original_sha256": "627faa3b072d1da11b5f747a9436f512bb6fb1f1a9b688f27fc51287b0c67e4f",
+      "byte_identical": true
+    },
+    {
+      "public_path": "work/rgs_attack/cap8_archive/analysis0/accepted_scores.csv",
+      "original_sha256": "06b527e5f87cc17c49cfabfc4fbc2c71927f89a361e7f3a35019662fe1f62469",
+      "byte_identical": true
+    },
+    {
+      "public_path": "work/rgs_attack/cap8_archive/analysis1/summary.json",
+      "original_sha256": "232f5f62e9f3dfdf45e25c88df868d25e17be59c692a95f362e2ada94e9d4f52",
+      "byte_identical": true
+    },
+    {
+      "public_path": "work/rgs_attack/cap8_archive/analysis1/proposal_audit.csv",
+      "original_sha256": "db84d54f8053da1ca48bb13c602733b5e3c9d1f159ba9ee01483ab150ddaa4ab",
+      "byte_identical": true
+    },
+    {
+      "public_path": "work/rgs_attack/cap8_archive/analysis1/accepted_scores.csv",
+      "original_sha256": "f8b15f14bf3ab73e6eab243ff6ec0144ba155152d673a7eb5252303b61f25222",
+      "byte_identical": true
+    },
+    {
+      "public_path": "work/rgs_attack/cap1_full_audit_artifact/cap1_all_fp64_audit.jsonl.summary.json",
+      "original_sha256": "41bf281212213294be0817459c4aacda312ddbe30b2d27a73327e68b0d8df30b",
+      "byte_identical": true
+    },
+    {
+      "public_path": "work/rgs_attack/cap1_full_audit_artifact/scan_order_amortization.json",
+      "original_sha256": "40f42a168d7d033bdfb9b74274a5519b4d3965509277c20d16d57d7ffe5eebb8",
+      "byte_identical": true
+    },
+    {
+      "public_path": "work/rgs_attack/cap1_full_audit_artifact/cap1_full_audit_manifest.json",
+      "original_sha256": "91c17233c8b0af6a4b8a3cdbc8f7b9fc83c7e5495fbb56542b72db9cfe0d416f",
+      "byte_identical": false,
+      "modification": "Replaced outputs transport-description field only; no numerical data modified"
+    },
+    {
+      "public_path": "work/rgs_attack/cap1_full_audit_artifact/cap1_audit_end_unix.txt",
+      "original_sha256": "fba161e4fbf6ddda32b5b170e817c43801c94b698c65264b67937c65cb3f0c71",
+      "byte_identical": true
+    },
+    {
+      "public_path": "work/rgs_attack/cap1_full_audit_artifact/cap1_audit_hardware.txt",
+      "original_sha256": "97094231314f3e23882607c3b04d0b111ca5772037509cbd4d37cbdeb3020fbc",
+      "byte_identical": true
+    },
+    {
+      "public_path": "work/rgs_attack/cap1_full_audit_artifact/scan_order_benchmark.json",
+      "original_sha256": "b14169f3a4a2d1ec82dfcc2280c7b3933cc474a49fee1a3a06ab64459bbfde73",
+      "byte_identical": true
+    },
+    {
+      "public_path": "work/rgs_attack/cap1_full_audit_artifact/cap1_all_fp64_audit.jsonl",
+      "original_sha256": "19cf206bdbffc8ae1b7d2d7b10b1ba5155c6ccb4e56eef34a59cf64783a90ce9",
+      "byte_identical": true
+    },
+    {
+      "public_path": "work/rgs_attack/cap1_full_audit_artifact/cap1_audit_start_unix.txt",
+      "original_sha256": "89b06bb9dd61c8b7b271c0aea6de12e5920c0f57ed298235b361373d3e650651",
+      "byte_identical": true
+    },
+    {
+      "public_path": "work/rgs_attack/cap1_full_audit_artifact/all_proposals_fp64_audit.csv",
+      "original_sha256": "38ffe1f0352f470c84760471c1772ef543f91b4f3425b67295451323170638a1",
+      "byte_identical": true
+    },
+    {
+      "public_path": "work/rgs_attack/order_optimization/input_manifest.json",
+      "original_sha256": "398c8d13c4f60ab923d6fc9ab5adf4cc40ef3561cbb7b31eb3b81f6fc26764ca",
+      "byte_identical": true
+    },
+    {
+      "public_path": "work/rgs_attack/order_optimization/best_order.txt",
+      "original_sha256": "23073220670aefa10218b88d1d64342d1de1d176ab749301341fc1695219c207",
+      "byte_identical": true
+    },
+    {
+      "public_path": "work/rgs_attack/order_optimization/run.csv",
+      "original_sha256": "8e02558110c429f64abb0e6837ced102ce944cb4d123fe3199db5ade7acabdb9",
+      "byte_identical": true
+    },
+    {
+      "public_path": "work/rgs_attack/order_optimization/scan_order_optimized.npy",
+      "original_sha256": "0467a3cb93ead4cfaf3ad1017a1b30ffec82a11900eb3f70ca33e586b09be302",
+      "byte_identical": true
+    },
+    {
+      "public_path": "work/rgs_attack/order_optimization/input.txt",
+      "original_sha256": "b34afa29fa162c3c16f630d2ea7294e939dc4091eeea774ea8c96b5f8de837cd",
+      "byte_identical": true
+    },
+    {
+      "public_path": "work/rgs_attack/order_optimization/search.cpp",
+      "original_sha256": "415c4565709d578daebadcf3416a7708f7984e7aec2fe9723beaa7f4b8becba3",
+      "byte_identical": true
+    },
+    {
+      "public_path": "work/rgs_attack/order_optimization/search_summary.json",
+      "original_sha256": "dfd19c07dfc228ad5ccf555d2e7733375602a32fa8f5f01ce61b6835dca23585",
+      "byte_identical": true
+    },
+    {
+      "public_path": "work/rgs_attack/order_optimization/prepare_and_verify.py",
+      "original_sha256": "ca2a12bc1c159f493b17c1866e05da2ec266444b509c6e67fcac9a7feeae80ef",
+      "byte_identical": true
+    },
+    {
+      "public_path": "work/rgs_attack/order_optimization/profile.json",
+      "original_sha256": "886e5a7f113d46d3e25138d871d6343753a1dedbcc2c6036f8e20c85045992ab",
+      "byte_identical": true
+    },
+    {
+      "public_path": "work/rgs_attack/order_optimization/total_wall_seconds.txt",
+      "original_sha256": "75b70e7700ca93cd18fe3560978e15a42b04c64c228304deb93e7d4dac6ff795",
+      "byte_identical": true
+    },
+    {
+      "public_path": "work/rgs_attack/ibm_samples/samples_nq70_depth70_checks27_basis_fstate.npy",
+      "original_sha256": "206a30495f8064e3bb7876462590f8092d9503455f1182be4660875055552438",
+      "byte_identical": true
+    },
+    {
+      "public_path": "work/qat/data/classically-verifiable-problems/circuit-models/random_graph_sampling/nq70_depth70_checks27_basis_fstate.qasm",
+      "original_sha256": "8881167664ca6f75d11104b06bde2d6571c0b1558fdb67b55be69141de7e67d7",
+      "byte_identical": true
+    },
+    {
+      "public_path": "third_party/qat_LICENSE",
+      "original_sha256": "6a50c5923c736b5d160cc6dc8737ef6bb998f885bedfa2c036f6c0b0e6117848",
+      "byte_identical": true
+    }
+  ]
+}

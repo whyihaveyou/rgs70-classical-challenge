@@ -1,0 +1,30 @@
+{
+  "task": "Rescore every existing cap1 proposal, including rejected, with complex128 reverse scan",
+  "frozen_proposals": 2769,
+  "frozen_accepted": 1726,
+  "seed": 314159,
+  "cap": 1.0,
+  "files": {
+    "audit_all_proposals_fp64.py": "ac8c32e01f6c42f640af115c3f63c6f5613cb1cd6f9e0279bc2454873b23f129",
+    "run_cap1_full_audit.sh": "6eaa0d8e8af2fb04f56e598eb3c48f88aa74a61e206d802c9c954df042e290dd",
+    "cap1_all_proposals.jsonl": "85914353bf83f7bfe75220e04028fe04ad3f6deb424e9a5469e117b532decf92",
+    "scan_oracle.py": "741ed61352d0141b7f9e2991c827f662410c02892022a78cd8fa4b9b797db37c",
+    "rgs_graph.npz": "4d6879f0acaece72f83d0e46a122df7a9471671bc90a454e7dc88e11e229c7b0",
+    "scan_order.npy": "b9613a3c07c0cac3d16abfd88482abe1c6ce1b08bd8684905cefeb042a548c45",
+    "upstream_scan/gpu_kernel_fp64.py": "54c332eee08ea322ad714d836e542a2d321c542f417eac18680e3a8654521d69",
+    "upstream_scan/scan_plan.py": "0252480a785530c18b5496d97e4b6cbd113f9465f1c46acd4f38573c43d2e8e2",
+    "cap1_accepted_fp64.jsonl": "db1d5e2f903d5c2b203088cc2e24ca4e0606ca61d6cd1c97e3d12e7ac8f11008",
+    "benchmark_scan_orders.py": "5e34cb582367e72ca3a6eb6a8fca58cb9a843b97183f814e8940c938161ea360",
+    "scan_order_optimized.npy": "0467a3cb93ead4cfaf3ad1017a1b30ffec82a11900eb3f70ca33e586b09be302",
+    "upstream_scan/gpu_kernel.py": "10a3c6af05d98b47bca016d50ac8b12973655977ee45715a1d2d8af35606628d",
+    "graph_sampler.py": "5cc8c2b9d3f478b620afc562053fd84447fee1c1c84beae0bc24f05c9612e78f"
+  },
+  "runtime_budget_seconds": 1200,
+  "GPU": 1,
+  "estimated_GPU_seconds": 140,
+  "outputs": "audit JSONL, summary, and portable numerical artifacts",
+  "accepted_score_reuse": 1726,
+  "rejected_probabilities_new": 1043,
+  "cached_oracle_overlap_check": 8,
+  "benchmark": "fixed 32 uniform 70-bit strings seed161803, 2 warm-ups, alternate old/new, compare both to reverse FP64"
+}

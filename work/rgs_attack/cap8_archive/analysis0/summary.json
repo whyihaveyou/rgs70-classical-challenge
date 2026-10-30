@@ -1,0 +1,54 @@
+{
+  "scope": "Independent capped-probability sampler; q proportional to min(D*p/cap,1), NOT exact Born and NOT state-fidelity certification",
+  "n_qubits": 70,
+  "cap": 8.0,
+  "seed": 271828,
+  "proposals": 7227,
+  "accepted": 863,
+  "acceptance_rate": 0.1194133111941331,
+  "RNG_and_acceptance_replay_passed": true,
+  "duplicate_accepted_bitstrings": 0,
+  "score": {
+    "clipped_K4_mean": 0.9221330463726407,
+    "clipped_K4_one_sided_Hoeffding_lower_alpha_0_025": 0.7372117934166893,
+    "clipped_K4_bound_scope": "Distribution-free iid lower bound on un-clipped population XEB, conditional on valid target probability evaluation; alpha .025 per two predeclared runs (Bonferroni .05 familywise)",
+    "n": 863,
+    "mean": 1.038067376468685,
+    "standard_error": 0.04814668739388816,
+    "normal_95_CI": [
+      0.9436998691766642,
+      1.1324348837607057
+    ],
+    "bootstrap_95_CI": [
+      0.9420322260731069,
+      1.1349049535208378
+    ],
+    "bootstrap_resamples": 20000,
+    "bootstrap_seed": 424242,
+    "min": -0.9614275251503115,
+    "max": 8.120612689767947
+  },
+  "fp64_vs_fp32_relative_probability_error": {
+    "max": 1.279050647806115e-06,
+    "median": 1.7446061341359723e-07,
+    "p99": 8.909132806141847e-07
+  },
+  "accepted_decisions_that_would_reverse_using_fp64": 0,
+  "all_proposals_min_abs_acceptance_margin_fp32": 4.5543411888004925e-05,
+  "near_acceptance_boundary_within_1e_6": [],
+  "near_acceptance_boundary_within_1e_5": [],
+  "candidate_oracle_seconds_sum": 665.7452451270074,
+  "generation_seconds_reported": 666.1743408218026,
+  "setup_seconds": 0.8563832079526037,
+  "independent_scoring_seconds": 112.91984389768913,
+  "threshold_reference": {
+    "QAT_XEB": 0.092,
+    "quantum_runtime_seconds": 1950,
+    "bootstrap_lower_bound_above_0_092": true
+  },
+  "timing_scope": "Sampling job generation walltime and setup counted separately; queue/download/install/search/independent validation not included unless caller adds to report. GPU hours and total project walltime must be disclosed.",
+  "source_files": {
+    "work/rgs_attack/cap8_archive/cap8_part0.jsonl": "2ff22bcb69353c25b3a9237aa0a33068b2726544b3d5e51dc8e4af8f5a078354",
+    "work/rgs_attack/cap8_archive/cap8_scored0.jsonl": "e5a4ffd4fda85657521cfd7556c88480f0cc02c52812d9d0a5e8ab95d53feb20"
+  }
+}

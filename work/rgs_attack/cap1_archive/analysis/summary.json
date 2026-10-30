@@ -1,0 +1,109 @@
+{
+  "scope": "Independent capped-probability sampler; q proportional to min(D*p/cap,1), NOT exact Born and NOT state-fidelity certification",
+  "n_qubits": 70,
+  "cap": 1.0,
+  "seed": 314159,
+  "proposals": 2769,
+  "accepted": 1726,
+  "acceptance_rate": 0.6233297219212712,
+  "RNG_and_acceptance_replay_passed": true,
+  "duplicate_accepted_bitstrings": 0,
+  "score": {
+    "clipped_K4_mean": 0.36426334207954336,
+    "clipped_K4_one_sided_Hoeffding_lower_alpha_0_025": 0.23350427012887726,
+    "clipped_K4_bound_scope": "Distribution-free iid lower bound on un-clipped population XEB, conditional on valid target probability evaluation; alpha .025 per two predeclared runs (Bonferroni .05 familywise)",
+    "n": 1726,
+    "mean": 0.38992452580452763,
+    "standard_error": 0.024790750785144967,
+    "normal_95_CI": [
+      0.3413346542656435,
+      0.43851439734341174
+    ],
+    "bootstrap_95_CI": [
+      0.3412736514428331,
+      0.4395646807904299
+    ],
+    "bootstrap_resamples": 20000,
+    "bootstrap_seed": 424242,
+    "min": -0.9942747263422167,
+    "max": 5.936382130945954
+  },
+  "fp64_vs_fp32_relative_probability_error": {
+    "max": 1.960070855459466e-06,
+    "median": 1.9358030212759313e-07,
+    "p99": 9.63476596061963e-07
+  },
+  "accepted_decisions_that_would_reverse_using_fp64": 0,
+  "all_proposals_min_abs_acceptance_margin_fp32": 0.00020468376520729747,
+  "near_acceptance_boundary_within_1e_6": [],
+  "near_acceptance_boundary_within_1e_5": [],
+  "candidate_oracle_seconds_sum": 256.06923227291554,
+  "generation_seconds_reported": 256.23442152142525,
+  "setup_seconds": 0.5654617045074701,
+  "independent_scoring_seconds": 226.371707867831,
+  "threshold_reference": {
+    "QAT_XEB": 0.092,
+    "quantum_runtime_seconds": 1950,
+    "bootstrap_lower_bound_above_0_092": true
+  },
+  "timing_scope": "Sampling job generation walltime and setup counted separately; queue/download/install/search/independent validation not included unless caller adds to report. GPU hours and total project walltime must be disclosed.",
+  "source_files": {
+    "work/rgs_attack/cap1_archive/capped1726.jsonl": "85914353bf83f7bfe75220e04028fe04ad3f6deb424e9a5469e117b532decf92",
+    "work/rgs_attack/cap1_archive/scored_fp64.jsonl": "db1d5e2f903d5c2b203088cc2e24ca4e0606ca61d6cd1c97e3d12e7ac8f11008",
+    "work/rgs_attack/cap1_archive/ibm_scored_fp64.jsonl": "2059aa0494d1bdb2f33bee32986be736c6a1a07d61d57184119b61c80571dab1",
+    "work/rgs_attack/cap1_archive/uniform_scored_fp64.jsonl": "81f7eedc4fd09475b51cb4c3d69a1035371126645076ce7cc35e9ceeeb964d53"
+  },
+  "ibm": {
+    "score": {
+      "clipped_K4_mean": 0.40362880863682155,
+      "clipped_K4_one_sided_Hoeffding_lower_alpha_0_025": 0.27286973668615544,
+      "clipped_K4_bound_scope": "Distribution-free iid lower bound on un-clipped population XEB, conditional on valid target probability evaluation; alpha .025 per two predeclared runs (Bonferroni .05 familywise)",
+      "n": 1726,
+      "mean": 0.4660126352684421,
+      "standard_error": 0.03110132222871897,
+      "normal_95_CI": [
+        0.4050540437001529,
+        0.5269712268367313
+      ],
+      "bootstrap_95_CI": [
+        0.4055111832721169,
+        0.5274469332315839
+      ],
+      "bootstrap_resamples": 20000,
+      "bootstrap_seed": 424242,
+      "min": -0.9974289942847872,
+      "max": 7.191713101115447
+    },
+    "scoring_seconds": 226.3789739254862,
+    "duplicate_bitstrings": 0
+  },
+  "uniform": {
+    "score": {
+      "clipped_K4_mean": -0.0707178247206493,
+      "clipped_K4_one_sided_Hoeffding_lower_alpha_0_025": -0.5508792203806097,
+      "clipped_K4_bound_scope": "Distribution-free iid lower bound on un-clipped population XEB, conditional on valid target probability evaluation; alpha .025 per two predeclared runs (Bonferroni .05 familywise)",
+      "n": 128,
+      "mean": -0.06468814308145238,
+      "standard_error": 0.07126138069939282,
+      "normal_95_CI": [
+        -0.2043604492522623,
+        0.07498416308935754
+      ],
+      "bootstrap_95_CI": [
+        -0.19808151288980758,
+        0.07921434098271436
+      ],
+      "bootstrap_resamples": 20000,
+      "bootstrap_seed": 424242,
+      "min": -0.9930059039724513,
+      "max": 3.48750852208663
+    },
+    "scoring_seconds": 16.807279776781797,
+    "duplicate_bitstrings": 0
+  },
+  "capped_minus_ibm_xeb": -0.07608810946391448,
+  "difference_independent_normal_95_CI": [
+    -0.15404274692798559,
+    0.001866528000156631
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "proposals_audited": 2769,
+  "accepted_scores_reused": 1726,
+  "probabilities_recomputed_this_job": 1043,
+  "accepted_audited": 1726,
+  "rejected_audited": 1043,
+  "all_decisions_preserved": true,
+  "decision_changed_indices": [],
+  "relative_probability_error_max": 3.480055951523217e-05,
+  "relative_probability_error_p99": 2.9409806201776303e-06,
+  "relative_probability_error_median": 2.6035467120022083e-07,
+  "minimum_acceptance_margin_fp64": 0.00020458983501367434,
+  "maximum_acceptance_probability_difference": 8.403008915358612e-07,
+  "GPU_oracle_seconds_sum": 136.9010246489197,
+  "setup_seconds": 0.04330747667700052,
+  "total_seconds": 138.99996330589056,
+  "scope": "Numerical consistency at complex128 reverse order, not a rigorous exact-real error bound"
+}

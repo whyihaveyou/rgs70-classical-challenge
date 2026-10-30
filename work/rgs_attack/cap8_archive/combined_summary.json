@@ -1,0 +1,31 @@
+{
+  "n": 1726,
+  "proposals": 13673,
+  "accepted": 1726,
+  "acceptance_rate": 0.12623418415856066,
+  "score": {
+    "clipped_K4_mean": 0.9408054943328344,
+    "clipped_K4_one_sided_Hoeffding_lower_alpha_0_025": 0.8100464223821684,
+    "clipped_K4_bound_scope": "Distribution-free iid lower bound on un-clipped population XEB, conditional on valid target probability evaluation; alpha .025 per two predeclared runs (Bonferroni .05 familywise)",
+    "n": 1726,
+    "mean": 1.0710865456800647,
+    "standard_error": 0.03529056950884714,
+    "normal_95_CI": [
+      1.0019170294427242,
+      1.1402560619174051
+    ],
+    "bootstrap_95_CI": [
+      1.00248349312672,
+      1.1420817815863675
+    ],
+    "bootstrap_resamples": 20000,
+    "bootstrap_seed": 424242,
+    "min": -0.9614275251503115,
+    "max": 8.925923061236643
+  },
+  "oracle_seconds_sum": 1260.1260143853724,
+  "generation_wall_max_seconds": 666.1743408218026,
+  "independent_scoring_seconds_sum": 226.05262212315574,
+  "quantum_seconds": 1950,
+  "speedup_vs_quantum": 2.9271616760177985
+}

@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-30",
+  "qat_commit": "b781c93aa44fd45a4e7cd42190532fd5ebcca564",
+  "target": "random_graph_sampling_nq70_depth70_checks27_basis_fstate",
+  "qasm_sha256": "8881167664ca6f75d11104b06bde2d6571c0b1558fdb67b55be69141de7e67d7",
+  "n_samples": 1726,
+  "seed": 314159,
+  "cap": 1.0,
+  "selection": "fixed before first rejection experiment; no early success stopping",
+  "distribution": "q proportional to min(2^70 p,1), iid capped rejection, NOT Born-exact",
+  "validation": "all accepted + IBM samples recomputed with reverse order complex128",
+  "quantum_reference_seconds": 1950,
+  "quantum_xeb_proxy_threshold": 0.092,
+  "source_upstream": "https://github.com/kim-renaud/dcs-rankwidth",
+  "source_commit": "2ddc1c94c31b922f0eb3118d0a8356cc92e6f1a7",
+  "files": {
+    "scan_oracle.py": "741ed61352d0141b7f9e2991c827f662410c02892022a78cd8fa4b9b797db37c",
+    "independent_stim_check.py": "432a82048a16eb1c344c1c5e3234fa31f411f56c3de3614b0de080985f97b209",
+    "rejection_sampler.py": "21473d1b391cb57b7881fe4329c03863167bad0d54c0d2e8bb8c3844eb9402a0",
+    "package_challenge.py": "1cc0767cfbe321ba6bdc31bb24343945cfa0668986b8bedbc95732f1bbf21e64",
+    "graph_sampler.py": "5cc8c2b9d3f478b620afc562053fd84447fee1c1c84beae0bc24f05c9612e78f",
+    "search_width.py": "3f3d18faac96a18966ea689063f6278840c19de7c6966a56eabd20a8f6466bf6",
+    "rejection_selfcheck.py": "7a66c67627bc9c7961a6d0910168f19a1102860a3fb53891ab96da5bbccc5e1a",
+    "distributed_sampler.py": "1461dd909b7d5a387cd300e24544d72e4461a71ea4bdec4af92622825ad17a0e"
+  }
+}

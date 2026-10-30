@@ -1,0 +1,15 @@
+{
+  "n": 8,
+  "cap": 1.0,
+  "accepted": 100000,
+  "proposals": 149739,
+  "acceptance_predicted": 0.6685569854826117,
+  "acceptance_observed": 0.6678286885848043,
+  "target_xeb": 0.3380099593767536,
+  "observed_xeb": 0.3442322818560562,
+  "standard_error": 0.0028195954351148468,
+  "empirical_total_variation": 0.018092516268668327,
+  "lag1_correlation": 0.005201187671621617,
+  "distribution": "q proportional to min(Dp/cap,1), not Born",
+  "independence": "proposal bits and U iid; acceptance depends only on current pair; renewals therefore iid analytically"
+}

@@ -1,0 +1,28 @@
+{
+  "fixed_inputs": 32,
+  "seed": 161803,
+  "old_median_seconds": 0.09321858128532767,
+  "new_median_seconds": 0.07503993110731244,
+  "median_saved_seconds": 0.018178650178015232,
+  "search_seconds": 158.094,
+  "break_even_contractions_single_GPU": 8696.685312267828,
+  "timing_scope": "same-GPU fixed32 paired input benchmark after 2 warmups; search is additional CPU wall time",
+  "cautions": "Extrapolations only. Historical cap1/cap8 runtimes remain the actually measured values. Two concurrent GPUs amortize preprocessing against max(part count), not total count.",
+  "projections": {
+    "cap1_single_GPU": {
+      "contractions": 2769,
+      "projected_contraction_seconds_saved": 50.33668234292418,
+      "net_saving_after_serial_search_seconds": -107.75731765707582
+    },
+    "cap8_aggregate_GPU_work": {
+      "contractions": 13673,
+      "projected_contraction_seconds_saved": 248.55668388400227,
+      "net_saving_after_serial_search_seconds": 90.46268388400227
+    },
+    "cap8_concurrent_wall_using_longest_part": {
+      "contractions": 7227,
+      "projected_contraction_seconds_saved": 131.37710483651608,
+      "net_saving_after_serial_search_seconds": -26.716895163483912
+    }
+  }
+}

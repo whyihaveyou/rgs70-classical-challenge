@@ -1,0 +1,17 @@
+RGS70 capped-sampling benchmark and numerical audit
+Author: Zhongpu Qiu (邱仲普)
+Affiliation: Not specified
+
+Original contributions and release packaging: Copyright 2026 Zhongpu Qiu.
+Code is distributed under Apache-2.0; third-party inputs retain their original terms.
+The scan compiler and CUDA contraction kernels derive from dcs-rankwidth,
+Copyright 2026 Kim Renaud, Calcul Québec, Apache-2.0.
+Upstream: https://github.com/kim-renaud/dcs-rankwidth
+Pinned commit: 2ddc1c94c31b922f0eb3118d0a8356cc92e6f1a7
+Preserved notices: work/rgs_attack/upstream_scan/NOTICE and LICENSE.
+Modifications: explicit NumPy uint64-to-int64 indexing compatibility cast
+in scan_plan.py; separately labelled complex128/double-reduction CUDA variant
+in gpu_kernel_fp64.py. The original GPU kernel is not claimed as new work.
+QAT QASM and public IBM sample files are reproduced as third-party benchmark
+inputs with their source URLs and exact hashes in README.md/ORIGINAL_HASHES.json.
+The root code license does not relicense these external inputs.
