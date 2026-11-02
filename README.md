@@ -1,6 +1,6 @@
 # RGS70 classical sampling experiments
 
-Author: **Zhongpu Qiu (邱仲普)**. Affiliations: Beijing Normal University; Shanghai Artificial Intelligence Laboratory.
+Author: **Zhongpu Qiu (邱仲普)**. Affiliations: Shanghai Artificial Intelligence Laboratory; Beijing Normal University.
 
 ## Exact sampling (current submission)
 
