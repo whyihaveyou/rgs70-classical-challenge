@@ -1,0 +1,13 @@
+{
+  "job": "qat-rgs70-born-timing-1101-11355451",
+  "terminal": "Succeeded",
+  "central_start_unix": 1793507706.327281,
+  "central_end_unix": 1793508971.457741,
+  "central_monotonic_submit_to_terminal_observed_seconds": 1258.9246406250002,
+  "central_monotonic_submit_to_all_logs_returned_seconds": 1265.1139836250002,
+  "clock_scope": "One local monotonic clock, including SSH, source packaging, scheduling, startup, sampling, FP64 scoring, polling delay and log return. Does not include earlier algorithm research/pilot/CPU preprocessing.",
+  "poll_seconds": 30,
+  "total_GPUs": 8,
+  "groups": 4,
+  "log_return_code": 0
+}

@@ -1,0 +1,3 @@
+index, name, uuid, memory.total [MiB], driver_version
+0, NVIDIA H200, GPU-6fc73040-7cd7-6cdc-ced3-e944bf36362c, 143771 MiB, 595.71.05
+1, NVIDIA H200, GPU-3a7c0ac0-7cac-26c4-41a4-c84275e9bb4d, 143771 MiB, 595.71.05

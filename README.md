@@ -1,8 +1,16 @@
-# RGS70 capped sampling and numerical audit
+# RGS70 classical sampling experiments
 
-Author: **Zhongpu Qiu (邱仲普)**. Affiliation: **Not specified**.
+Author: **Zhongpu Qiu (邱仲普)**. Affiliations: Beijing Normal University; Shanghai Artificial Intelligence Laboratory.
 
-This repository contains completed classical capped-rejection experiments for the public 70-qubit random-graph-sampling instance in [QAT submission #151](https://github.com/quantum-advantage-tracker/quantum-advantage-tracker.github.io/issues/151). It contains probability data, all proposal/acceptance random variables, independent complex128 scores, a complete cap=1 decision audit, and a separate scan-order benchmark. No pending Born-sampling prototype is included. QAT acceptance or supersession is not asserted.
+## Exact sampling (current submission)
+
+The exact-sampling submission and its data are in [`born/`](born/README.md): two batches of 1,726 independent samples from the ideal output distribution, with linear XEB 1.096 ± 0.035 and 0.953 ± 0.033 (pooled 1.025 ± 0.024). Batch 1 took 1,265 s end to end on 8 NVIDIA H200 GPUs; the quantum runtime in #151 is 1,950 s. Run `python born/verify.py` to check every record and recompute the statistics.
+
+## Capped sampling experiments (QAT #260)
+
+The rest of this README describes our earlier capped-sampling experiments, submitted as QAT #260 and replaced by the exact-sampling submission.
+
+This part of the repository contains completed classical capped-rejection experiments for the public 70-qubit random-graph-sampling instance in [QAT submission #151](https://github.com/quantum-advantage-tracker/quantum-advantage-tracker.github.io/issues/151). It contains probability data, all proposal/acceptance random variables, independent complex128 scores, a complete cap=1 decision audit, and a separate scan-order benchmark. QAT acceptance or supersession is not asserted.
 
 | Completed experiment | GPUs | Samples / proposals | Independent XEB ± standard error | Generation wall time |
 |---|---:|---:|---:|---:|
@@ -81,4 +89,4 @@ Score each accepted file with `scan_oracle.py --fp64 --reverse-order --count 863
 - `work/rgs_attack/upstream_scan/`: attributed compiler/kernels and original license/notice.
 - `work/qat/data/.../`: original public QASM at the path expected by the independent validation script.
 
-No private cluster runner, SSH configuration, raw cluster transport log, pending Born experiment or unconfirmed institutional affiliation is part of this release.
+No SSH configuration, scheduler submission script or raw cluster log is part of this release.

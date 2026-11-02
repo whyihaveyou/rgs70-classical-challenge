@@ -1,0 +1,43 @@
+{
+  "task": "Specialized initialization for exact conditional Born sampler, stage3 GPU pilot",
+  "date": "2026-10-31",
+  "GPU_count": 2,
+  "runtime_budget_seconds": 900,
+  "full70_count": 4,
+  "seed": 20261030,
+  "acceptance_criteria": "All small full-vector oracle l2 error <1e-5; full70 norm error <1e-3 and reverse complex128 selected-probability relative error <1e-4",
+  "scope": "correctness/performance pilot; no full1726 run",
+  "files": {
+    "fourier_covariant_sampler.py": "0af702a1445bfca7379dc2445c9e95785991937358d299043faff4c2a980cfbd",
+    "run_fourier_covariant.sh": "3b16c5c305150b34e8c9a24d94fa80ba2cc38251f9af363b3c1b0f6bbb943561",
+    "run_fourier_archive.sh": "3e7a2751ad325f7eca0632570ab5db70c90b34371e9336b864b1eebc8e9357be",
+    "distributed_sampler.py": "1461dd909b7d5a387cd300e24544d72e4461a71ea4bdec4af92622825ad17a0e",
+    "graph_sampler.py": "5cc8c2b9d3f478b620afc562053fd84447fee1c1c84beae0bc24f05c9612e78f",
+    "scan_oracle.py": "741ed61352d0141b7f9e2991c827f662410c02892022a78cd8fa4b9b797db37c",
+    "rgs_graph.npz": "4d6879f0acaece72f83d0e46a122df7a9471671bc90a454e7dc88e11e229c7b0",
+    "rgs_graph_alt_partition.npz": "cba696d96ab16b0c59b6034beca93f22c52b86f55117843b26f8e6ee422aa291",
+    "scan_order.npy": "b9613a3c07c0cac3d16abfd88482abe1c6ce1b08bd8684905cefeb042a548c45",
+    "upstream_scan/scan_plan.py": "0252480a785530c18b5496d97e4b6cbd113f9465f1c46acd4f38573c43d2e8e2",
+    "upstream_scan/gpu_kernel_fp64.py": "54c332eee08ea322ad714d836e542a2d321c542f417eac18680e3a8654521d69",
+    "induced_12q.npz": "da90062c3ab7ce2880a298be2a44ea693fe79846cd113f6d71a0444b58108a75",
+    "induced_24q.npz": "a8646e6ff120a92884db8eb38ab064b9edc80a06b19821a415e9af9b21ff9c04",
+    "induced_32q.npz": "68c5099b8bf85bb40c65f3ca27c435cb3b21c8a81d1ec82c5023543be558b643",
+    "induced_40q.npz": "8d22b9939c3586655d5bca2175aec24542555c30531b6dc5e3412917eb3bc9f1",
+    "induced_60q.npz": "f55f4abc524a1b0d9ae2bbef87b58e7eaa5e06d0d932f8ba56164160cd2ed64e",
+    "run_fourier_stage2.sh": "9bdbb20bc43419463be443aa53dba28d3711fe7004a84a2a9a3efa34cd3e16f2",
+    "run_fourier_stage2_archive.sh": "d171f38082a81426ee3a517a5f8b1306f5d38c8822ffe3414c8e26629bbfd5fc",
+    "fourier_fused_sampler.py": "eb9613d2264ad2d0171037f02c432e770510afcbc31c5742501d121fdd2f2550",
+    "compare_fourier_fused.py": "c452117518a8440c18250d7a99f15df61d2281383e94f8879e527ccb58a33e4a",
+    "run_fourier_fused.sh": "22531f3f5680c713e1f067ab45f9faeb798e5b5d123047196153d0179c7dc9de",
+    "deferred_global_sampler.py": "c5e4a50efd4a637c63a3eabc1965efb95ab871e18610286f30a740a0ab0a8e6f",
+    "run_specialized_archive.sh": "1c2b4350e64aa84a7acdad906ed73a3728a73afbd5c3f3683edd7448bfd69aa2",
+    "run_specialized_deferred.sh": "7f22a58444229f65b1e4f4556a7d4d056a5d71c9e291e3082f7bbc249805bc7f",
+    "specialized_deferred_sampler.py": "17aab576bb5fe3be5cde17f2383f3fa6965feb56f67154201291b63c690bbf66",
+    "init_specialization.py": "787956e7fc354f30c293c773b1de06c8cf0de7626908c269d2aa02651d981400"
+  },
+  "full70_count_per_variant": 4,
+  "seeds": {
+    "specialized": 2026103103
+  },
+  "source_freeze": "before GPU pilot execution"
+}

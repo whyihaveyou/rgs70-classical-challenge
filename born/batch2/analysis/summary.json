@@ -1,0 +1,419 @@
+{
+  "scope": "Independent audit of one fixed conditional Born production run; finite-precision consistency, not a global TV or quantum-state fidelity certificate",
+  "validation_passed": true,
+  "expected_samples": 1726,
+  "matched_scored_samples": 1726,
+  "failures": [],
+  "warnings": [],
+  "groups": [
+    {
+      "group_id": 0,
+      "expected_count": 432,
+      "observed_count": 432,
+      "fp64_count": 432,
+      "audit_passed": true,
+      "score": {
+        "n": 432,
+        "mean": 0.8683764760677646,
+        "standard_error": 0.06268333611503916,
+        "normal_95_CI_approximate": [
+          0.7455171372822879,
+          0.9912358148532413
+        ],
+        "bootstrap_95_CI_approximate": [
+          0.7481604597346747,
+          0.9928898736214923
+        ],
+        "bootstrap_resamples": 20000,
+        "bootstrap_seed": 424242,
+        "min": -0.920072701515583,
+        "max": 7.284212725541831,
+        "clipped_K4_mean": 0.7938143940946101,
+        "clipped_K4_one_sided_Hoeffding_lower_alpha_0_05": 0.5582798454943396,
+        "primary_predeclared_test": false,
+        "Hoeffding_scope": "Per-group diagnostic only; no additional success claim or multiplicity-adjusted test.",
+        "primary_lower_above_QAT_0_092": null
+      },
+      "timing": {
+        "generation_seconds": 1041.8020632900298,
+        "process_elapsed_seconds": 1043.6503004543483,
+        "setup_seconds": 1.8266789065673947,
+        "process_to_ready_seconds": 1.8480779379606247,
+        "generation_start_unix": 1793542947.7226954,
+        "generation_end_unix": 1793543989.5247583,
+        "process_start_unix": 1793542945.8744586,
+        "fp64_oracle_seconds_sum": 56.67315815389156,
+        "fp64_setup_seconds": 0.6618695454671979,
+        "recorded_script_span_seconds": 1102.0
+      },
+      "errors": {
+        "norm_absolute_error": {
+          "n": 432,
+          "max": 2.3168038443266425e-07,
+          "p99": 2.3157356407565999e-07,
+          "median": 2.2935417187675e-07
+        },
+        "raw_relative_error": {
+          "n": 432,
+          "max": 2.827006376418234e-06,
+          "p99": 1.5598381135760505e-06,
+          "median": 3.854962551397999e-07
+        },
+        "normalized_relative_error": {
+          "n": 432,
+          "max": 2.5989254924046848e-06,
+          "p99": 1.4472278926344351e-06,
+          "median": 3.286282434716147e-07
+        },
+        "raw_scaled_absolute_error": {
+          "n": 432,
+          "max": 7.904454162321883e-06,
+          "p99": 3.870539218349123e-06,
+          "median": 5.374350441345044e-07
+        },
+        "normalized_scaled_absolute_error": {
+          "n": 432,
+          "max": 6.2790489110398084e-06,
+          "p99": 3.0719368097287255e-06,
+          "median": 4.610197303911434e-07
+        }
+      }
+    },
+    {
+      "group_id": 1,
+      "expected_count": 432,
+      "observed_count": 432,
+      "fp64_count": 432,
+      "audit_passed": true,
+      "score": {
+        "n": 432,
+        "mean": 0.8455706222231595,
+        "standard_error": 0.0620765439297911,
+        "normal_95_CI_approximate": [
+          0.723900596120769,
+          0.96724064832555
+        ],
+        "bootstrap_95_CI_approximate": [
+          0.7270903022277047,
+          0.9684552572291358
+        ],
+        "bootstrap_resamples": 20000,
+        "bootstrap_seed": 424242,
+        "min": -0.98103091344216,
+        "max": 7.283352921446824,
+        "clipped_K4_mean": 0.771981974120924,
+        "clipped_K4_one_sided_Hoeffding_lower_alpha_0_05": 0.5364474255206535,
+        "primary_predeclared_test": false,
+        "Hoeffding_scope": "Per-group diagnostic only; no additional success claim or multiplicity-adjusted test.",
+        "primary_lower_above_QAT_0_092": null
+      },
+      "timing": {
+        "generation_seconds": 1051.410994824022,
+        "process_elapsed_seconds": 1053.2141429418698,
+        "setup_seconds": 1.7816740134730935,
+        "process_to_ready_seconds": 1.8029764126986265,
+        "generation_start_unix": 1793542949.1729236,
+        "generation_end_unix": 1793544000.5839179,
+        "process_start_unix": 1793542947.3697755,
+        "fp64_oracle_seconds_sum": 56.796443295665085,
+        "fp64_setup_seconds": 0.7880115611478686,
+        "recorded_script_span_seconds": 1111.0
+      },
+      "errors": {
+        "norm_absolute_error": {
+          "n": 432,
+          "max": 2.3162883033833737e-07,
+          "p99": 2.315992461832117e-07,
+          "median": 2.308974775822037e-07
+        },
+        "raw_relative_error": {
+          "n": 432,
+          "max": 2.341363331524956e-06,
+          "p99": 1.6009573119941592e-06,
+          "median": 3.8041306335502046e-07
+        },
+        "normalized_relative_error": {
+          "n": 432,
+          "max": 2.5725420440211987e-06,
+          "p99": 1.5448756806801364e-06,
+          "median": 3.335458206187451e-07
+        },
+        "raw_scaled_absolute_error": {
+          "n": 432,
+          "max": 4.478257346285375e-06,
+          "p99": 3.47344817261952e-06,
+          "median": 5.286615558097729e-07
+        },
+        "normalized_scaled_absolute_error": {
+          "n": 432,
+          "max": 3.4072770591642154e-06,
+          "p99": 2.8524690902287375e-06,
+          "median": 4.990705789187366e-07
+        }
+      }
+    },
+    {
+      "group_id": 2,
+      "expected_count": 431,
+      "observed_count": 431,
+      "fp64_count": 431,
+      "audit_passed": true,
+      "score": {
+        "n": 431,
+        "mean": 1.1026294979547977,
+        "standard_error": 0.06949874445130746,
+        "normal_95_CI_approximate": [
+          0.9664119588302351,
+          1.2388470370793603
+        ],
+        "bootstrap_95_CI_approximate": [
+          0.9689854519171236,
+          1.2402286741553825
+        ],
+        "bootstrap_resamples": 20000,
+        "bootstrap_seed": 424242,
+        "min": -0.9732834267463422,
+        "max": 9.652160486607194,
+        "clipped_K4_mean": 0.9824676044400227,
+        "clipped_K4_one_sided_Hoeffding_lower_alpha_0_05": 0.7466599722134228,
+        "primary_predeclared_test": false,
+        "Hoeffding_scope": "Per-group diagnostic only; no additional success claim or multiplicity-adjusted test.",
+        "primary_lower_above_QAT_0_092": null
+      },
+      "timing": {
+        "generation_seconds": 1041.4607324004173,
+        "process_elapsed_seconds": 1043.506562656723,
+        "setup_seconds": 2.0194364124909043,
+        "process_to_ready_seconds": 2.0456177135929465,
+        "generation_start_unix": 1793542953.1764724,
+        "generation_end_unix": 1793543994.6372037,
+        "process_start_unix": 1793542951.1306422,
+        "fp64_oracle_seconds_sum": 56.896887303330004,
+        "fp64_setup_seconds": 0.7068570740520954,
+        "recorded_script_span_seconds": 1102.0
+      },
+      "errors": {
+        "norm_absolute_error": {
+          "n": 431,
+          "max": 2.3166531848417549e-07,
+          "p99": 2.3159669291228368e-07,
+          "median": 2.2926936038558665e-07
+        },
+        "raw_relative_error": {
+          "n": 431,
+          "max": 2.1242516172134445e-06,
+          "p99": 1.5039327896200302e-06,
+          "median": 3.229725631110409e-07
+        },
+        "normalized_relative_error": {
+          "n": 431,
+          "max": 2.3513441697566082e-06,
+          "p99": 1.332410429629077e-06,
+          "median": 3.0459014718651063e-07
+        },
+        "raw_scaled_absolute_error": {
+          "n": 431,
+          "max": 6.676354674439722e-06,
+          "p99": 4.531542134600384e-06,
+          "median": 4.969240020580301e-07
+        },
+        "normalized_scaled_absolute_error": {
+          "n": 431,
+          "max": 5.3996805631228995e-06,
+          "p99": 3.4393704117618976e-06,
+          "median": 4.86354178708126e-07
+        }
+      }
+    },
+    {
+      "group_id": 3,
+      "expected_count": 431,
+      "observed_count": 431,
+      "fp64_count": 431,
+      "audit_passed": true,
+      "score": {
+        "n": 431,
+        "mean": 0.9962714636628406,
+        "standard_error": 0.06870017366311049,
+        "normal_95_CI_approximate": [
+          0.861619123283144,
+          1.1309238040425371
+        ],
+        "bootstrap_95_CI_approximate": [
+          0.8633713522873445,
+          1.130327452095188
+        ],
+        "bootstrap_resamples": 20000,
+        "bootstrap_seed": 424242,
+        "min": -0.8955426664666454,
+        "max": 6.972782716516542,
+        "clipped_K4_mean": 0.8887488716006107,
+        "clipped_K4_one_sided_Hoeffding_lower_alpha_0_05": 0.6529412393740108,
+        "primary_predeclared_test": false,
+        "Hoeffding_scope": "Per-group diagnostic only; no additional success claim or multiplicity-adjusted test.",
+        "primary_lower_above_QAT_0_092": null
+      },
+      "timing": {
+        "generation_seconds": 1042.493350410834,
+        "process_elapsed_seconds": 1044.7507736599073,
+        "setup_seconds": 2.235019948333502,
+        "process_to_ready_seconds": 2.2572437580674887,
+        "generation_start_unix": 1793542952.8207371,
+        "generation_end_unix": 1793543995.3140864,
+        "process_start_unix": 1793542950.5633142,
+        "fp64_oracle_seconds_sum": 56.67415084503591,
+        "fp64_setup_seconds": 0.9247560938820243,
+        "recorded_script_span_seconds": 1103.0
+      },
+      "errors": {
+        "norm_absolute_error": {
+          "n": 431,
+          "max": 2.3161251183623222e-07,
+          "p99": 2.315706417954644e-07,
+          "median": 2.2890319417712135e-07
+        },
+        "raw_relative_error": {
+          "n": 431,
+          "max": 1.933632172648303e-06,
+          "p99": 1.5654737245632018e-06,
+          "median": 3.871619454612408e-07
+        },
+        "normalized_relative_error": {
+          "n": 431,
+          "max": 2.1093855335817605e-06,
+          "p99": 1.663857231500683e-06,
+          "median": 3.46703074792622e-07
+        },
+        "raw_scaled_absolute_error": {
+          "n": 431,
+          "max": 6.2865278325219265e-06,
+          "p99": 3.723991119386477e-06,
+          "median": 5.29379546199138e-07
+        },
+        "normalized_scaled_absolute_error": {
+          "n": 431,
+          "max": 4.708953356136192e-06,
+          "p99": 3.899266988671708e-06,
+          "median": 4.935096522551419e-07
+        }
+      }
+    }
+  ],
+  "score": {
+    "n": 1726,
+    "mean": 0.9531004987942533,
+    "standard_error": 0.03297526061246503,
+    "normal_95_CI_approximate": [
+      0.8884689879938218,
+      1.0177320095946847
+    ],
+    "bootstrap_95_CI_approximate": [
+      0.8888263214851129,
+      1.017931047341643
+    ],
+    "bootstrap_resamples": 20000,
+    "bootstrap_seed": 424242,
+    "min": -0.98103091344216,
+    "max": 9.652160486607194,
+    "clipped_K4_mean": 0.859164734787152,
+    "clipped_K4_one_sided_Hoeffding_lower_alpha_0_05": 0.7413292489120533,
+    "primary_predeclared_test": true,
+    "Hoeffding_scope": "Single pooled production-run test; independent observations and valid target probabilities required. Numerical probability error is not formally bounded.",
+    "primary_lower_above_QAT_0_092": true
+  },
+  "statistics_valid_only_if_audit_passes": true,
+  "errors": {
+    "norm_absolute_error": {
+      "n": 1726,
+      "max": 2.3168038443266425e-07,
+      "p99": 2.3158305084702846e-07,
+      "median": 2.2920342757082324e-07
+    },
+    "raw_relative_error": {
+      "n": 1726,
+      "max": 2.827006376418234e-06,
+      "p99": 1.5657128177525294e-06,
+      "median": 3.719226318916538e-07
+    },
+    "normalized_relative_error": {
+      "n": 1726,
+      "max": 2.5989254924046848e-06,
+      "p99": 1.548221954928249e-06,
+      "median": 3.299979135431858e-07
+    },
+    "raw_scaled_absolute_error": {
+      "n": 1726,
+      "max": 7.904454162321883e-06,
+      "p99": 4.0021182803329225e-06,
+      "median": 5.212133549759024e-07
+    },
+    "normalized_scaled_absolute_error": {
+      "n": 1726,
+      "max": 6.2790489110398084e-06,
+      "p99": 3.283871736536881e-06,
+      "median": 4.84525611521569e-07
+    }
+  },
+  "duplicate_complete_bitstrings_preserved": 0,
+  "timing": {
+    "generation_seconds_sum": 4177.167140925303,
+    "process_seconds_sum": 4185.121779712848,
+    "generation_GPU_seconds_2_per_group": 8354.334281850606,
+    "process_GPU_seconds_2_per_group": 8370.243559425697,
+    "generation_GPU_hours_2_per_group": 2.3206484116251684,
+    "process_GPU_hours_2_per_group": 2.325067655396027,
+    "independent_FP64_oracle_seconds_sum": 227.04063959792256,
+    "independent_FP64_oracle_GPU_seconds_one_device_each": 227.04063959792256,
+    "script_GPU_seconds_2_per_group": 8836.0,
+    "maximum_worker_generation_seconds_NOT_central_span": 1051.410994824022,
+    "central_launch_to_return_seconds": null,
+    "central_span_source": "not supplied; not inferred from workers",
+    "scope": "Process timer begins inside Python main, after top-level imports; generation excludes setup. GPU-seconds assume two held devices per group and do not certify scheduler allocation duration. Script spans include scoring where available. FP64 oracle sums exclude scorer startup unless separately reported."
+  },
+  "external_ledger": {},
+  "external_ledger_field_mapping": {},
+  "input_sha256": {
+    "work/rgs_attack/production_seed_manifest_seed2.json": "ce990fd386106b59d66f2be271e60fc792499bb4710390c9d1554a006a753b1c",
+    "work/rgs_attack/born_production_manifest_seed2.json": "ad8dafe8857f85618fb32d6c24d96b54f6da9246cf634db96c0742538159b6e6",
+    "work/rgs_attack/born_production.py": "b72524b31b23869c06a72f35e093038575e906db0f4419cb0ebf1a13c70f2e19",
+    "work/rgs_attack/run_born_production.sh": "cc4d0df4dc9fafb7afc2dee7c91121fd7811f2100d0d89656b49c4c892d28f0d",
+    "work/rgs_attack/run_born_archive.sh": "fc55e7c48f69558a2fdf1b6218d80776f4cb99f41cb435fe3db2196366553ae0",
+    "work/rgs_attack/specialized_deferred_sampler.py": "17aab576bb5fe3be5cde17f2383f3fa6965feb56f67154201291b63c690bbf66",
+    "work/rgs_attack/init_specialization.py": "787956e7fc354f30c293c773b1de06c8cf0de7626908c269d2aa02651d981400",
+    "work/rgs_attack/deferred_global_sampler.py": "c5e4a50efd4a637c63a3eabc1965efb95ab871e18610286f30a740a0ab0a8e6f",
+    "work/rgs_attack/fourier_fused_sampler.py": "eb9613d2264ad2d0171037f02c432e770510afcbc31c5742501d121fdd2f2550",
+    "work/rgs_attack/fourier_covariant_sampler.py": "0af702a1445bfca7379dc2445c9e95785991937358d299043faff4c2a980cfbd",
+    "work/rgs_attack/distributed_sampler.py": "1461dd909b7d5a387cd300e24544d72e4461a71ea4bdec4af92622825ad17a0e",
+    "work/rgs_attack/graph_sampler.py": "5cc8c2b9d3f478b620afc562053fd84447fee1c1c84beae0bc24f05c9612e78f",
+    "work/rgs_attack/scan_oracle.py": "741ed61352d0141b7f9e2991c827f662410c02892022a78cd8fa4b9b797db37c",
+    "work/rgs_attack/rgs_graph.npz": "4d6879f0acaece72f83d0e46a122df7a9471671bc90a454e7dc88e11e229c7b0",
+    "work/rgs_attack/scan_order.npy": "b9613a3c07c0cac3d16abfd88482abe1c6ce1b08bd8684905cefeb042a548c45",
+    "work/rgs_attack/upstream_scan/scan_plan.py": "0252480a785530c18b5496d97e4b6cbd113f9465f1c46acd4f38573c43d2e8e2",
+    "work/rgs_attack/upstream_scan/gpu_kernel_fp64.py": "54c332eee08ea322ad714d836e542a2d321c542f417eac18680e3a8654521d69",
+    "work/rgs_attack/run_born_production_seed2.sh": "d5f448a13794ecbd3d800ae680fc64eb300ed1540b37f5573f7b224de5a18926",
+    "work/rgs_attack/run_born_archive_seed2.sh": "92eb548ee6aa43633a981ee084d19262be1b95e30094fdc5c254f7923d53c7a4",
+    "work/rgs_attack/born_seed2_cluster_run/production_artifact_seed2/born_group0.jsonl": "fac2369708f5c1c379eab3fdd07385d34d747981b83001dc1c855bea64ace9d6",
+    "work/rgs_attack/born_seed2_cluster_run/production_artifact_seed2/born_group0_fp64.jsonl": "000e6c0e1dcc87cb75fbd6e8c69738c1a3938cfe6be20f553c5046ffa54172e6",
+    "work/rgs_attack/born_seed2_cluster_run/production_artifact_seed2/born_group0_start_unix.txt": "ab955f3e0722575a9f346c83c76cca9b90d511f482809012c000e2b93a77085c",
+    "work/rgs_attack/born_seed2_cluster_run/production_artifact_seed2/born_group0_end_unix.txt": "eb1c485fa9f62a670544bc3794c5a0176518371bfee03607f0d59d78caef8aee",
+    "work/rgs_attack/born_seed2_cluster_run/production_artifact_seed2/born_group0_exit.json": "273e544435f3441c4d90d8d104f8a28065a7b55721f5eab48536ceee186f36d6",
+    "work/rgs_attack/born_seed2_cluster_run/production_artifact_seed2/born_group1.jsonl": "112b287a430106a4dabf496405ca2b4ef44abdf4c06095f5305713d4972ce4e4",
+    "work/rgs_attack/born_seed2_cluster_run/production_artifact_seed2/born_group1_fp64.jsonl": "d1e30e15c3b5e1d994b84e9361c12157ee4d26674c803310f095c2b89f6a1192",
+    "work/rgs_attack/born_seed2_cluster_run/production_artifact_seed2/born_group1_start_unix.txt": "ed6996bd48eb17a8d3e468a6e79265a57bb97c4943413c81a5ad55ca2401260a",
+    "work/rgs_attack/born_seed2_cluster_run/production_artifact_seed2/born_group1_end_unix.txt": "cc7747ec8b63bc54d0b799110346a37e7246c8f5ff10f506030c82428bd05931",
+    "work/rgs_attack/born_seed2_cluster_run/production_artifact_seed2/born_group1_exit.json": "273e544435f3441c4d90d8d104f8a28065a7b55721f5eab48536ceee186f36d6",
+    "work/rgs_attack/born_seed2_cluster_run/production_artifact_seed2/born_group2.jsonl": "2c93995b44c8a7c783a8b12b262a846a52daaeaee7965596ec62868c8b27a15d",
+    "work/rgs_attack/born_seed2_cluster_run/production_artifact_seed2/born_group2_fp64.jsonl": "e5857b39c03c7d1b6c466defaf3c8b69f573ada4edb9dfd511865f531d43aa39",
+    "work/rgs_attack/born_seed2_cluster_run/production_artifact_seed2/born_group2_start_unix.txt": "0117dd4f093d842554f15c5dd389fee6ac5ca683e60b9612acab62f99d817995",
+    "work/rgs_attack/born_seed2_cluster_run/production_artifact_seed2/born_group2_end_unix.txt": "adc9090b0bce193c5f8827619fcd25cf6359818afe1a40adf129ca5d7194bd0e",
+    "work/rgs_attack/born_seed2_cluster_run/production_artifact_seed2/born_group2_exit.json": "273e544435f3441c4d90d8d104f8a28065a7b55721f5eab48536ceee186f36d6",
+    "work/rgs_attack/born_seed2_cluster_run/production_artifact_seed2/born_group3.jsonl": "14469d49c18c96eaffe56c782de4929477bc95b1e36b25155ec0a5253c80bd9e",
+    "work/rgs_attack/born_seed2_cluster_run/production_artifact_seed2/born_group3_fp64.jsonl": "fbf71c9cf69dd1d3b993eb00d111e2a0746d0de7319ea8e8b6eaa7f89e654b1f",
+    "work/rgs_attack/born_seed2_cluster_run/production_artifact_seed2/born_group3_start_unix.txt": "0117dd4f093d842554f15c5dd389fee6ac5ca683e60b9612acab62f99d817995",
+    "work/rgs_attack/born_seed2_cluster_run/production_artifact_seed2/born_group3_end_unix.txt": "c83bcb77c500661c9f6d751d0288ce310701fd147c2ac429167cae804527ddda",
+    "work/rgs_attack/born_seed2_cluster_run/production_artifact_seed2/born_group3_exit.json": "273e544435f3441c4d90d8d104f8a28065a7b55721f5eab48536ceee186f36d6"
+  },
+  "RNG_replay_limitation": "Replaying B and three uniforms verifies RNG consumption and logged mappings, not the unlogged full CDF/mass selection. GPU/CPU full-vector validation and independent probability scoring are separate evidence.",
+  "production_seed_manifest_sha256": "ce990fd386106b59d66f2be271e60fc792499bb4710390c9d1554a006a753b1c",
+  "production_manifest_sha256": "ad8dafe8857f85618fb32d6c24d96b54f6da9246cf634db96c0742538159b6e6"
+}

@@ -1,0 +1,11 @@
+{
+  "source_hashes_pass": true,
+  "median_seconds": 2.4161615730263293,
+  "p95_seconds": 2.4173027820885182,
+  "maximum_norm_error": 2.31578633824725e-07,
+  "maximum_p_relative_error": 4.827049573803983e-07,
+  "small_graph_oracle_L2": {
+    "24": 2.0072479875523228e-07,
+    "40": 2.631558449396144e-07
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "status": "Fixed production random streams; algorithm/runtime manifest must be frozen separately after pilot",
+  "created_at_utc": "2026-10-30T16:11:32.178013+00:00",
+  "seed_domain": "RGS70 full-rank35 Fourier conditional Born production, 1726 outputs; distinct from pilot/capped-rejection runs",
+  "root_entropy": [
+    20261031,
+    70,
+    35,
+    1726,
+    1
+  ],
+  "generator": "PCG64",
+  "numpy_version_used_to_generate_manifest": "2.2.6",
+  "construction": "children=SeedSequence(root_entropy).spawn(4); w=child.generate_state(4,dtype=uint32); seed=sum(int(w[j])<<(32*j) for j in range(4)); rng=Generator(PCG64(seed))",
+  "important": "Passing child directly to PCG64 is a different stream. Pass int(cli_seed_decimal). PCG64 internal 128-bit state/inc are decimal strings here; convert them to int before state restoration.",
+  "sample_protocol": "Fresh rng.integers(0,2,35) for B, then two rng.random() values for block and within-block CDF sampling. Save rngstate_before for every output. Any change in RNG call schedule must be documented in the final algorithm manifest.",
+  "total_samples": 1726,
+  "merge_order": "group_id ascending, then local_sample_id ascending",
+  "rules": [
+    "No pilot/warmup consumption of production RNG.",
+    "No sample/seed selection by XEB.",
+    "Preserve repeated bitstrings.",
+    "Recovery restores RNG state for the same unfinished sample, with failures and elapsed time retained."
+  ],
+  "groups": [
+    {
+      "group_id": 0,
+      "sample_count": 432,
+      "global_sample_id_start": 0,
+      "global_sample_id_end_inclusive": 431,
+      "spawn_key": [
+        0
+      ],
+      "seed_words_uint32_little_endian": [
+        4060046913,
+        2725184932,
+        2029184047,
+        2252627429
+      ],
+      "cli_seed_decimal": "178471532066333289424900750257149666881",
+      "initial_pcg64_state_decimal128": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": "78734906293365507641156134073297935600",
+          "inc": "255111424489981464707098271055343049133"
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "first_64_random_raw_uint64_little_endian_sha256": "b1396425c203ff2fb46fc06a155a39b1e9858722bd6ca96ea592cbb4783e1be5"
+    },
+    {
+      "group_id": 1,
+      "sample_count": 432,
+      "global_sample_id_start": 432,
+      "global_sample_id_end_inclusive": 863,
+      "spawn_key": [
+        1
+      ],
+      "seed_words_uint32_little_endian": [
+        151784640,
+        3063680080,
+        4060335488,
+        1900590945
+      ],
+      "cli_seed_decimal": "150580328338499202980407708448302304448",
+      "initial_pcg64_state_decimal128": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": "335137261450069959670041859089471344581",
+          "inc": "174589589626103313787935568485174918563"
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "first_64_random_raw_uint64_little_endian_sha256": "c4aeb909c6512500d41ac8d64558db4d8c62687e2903c8a05ff7921720b65622"
+    },
+    {
+      "group_id": 2,
+      "sample_count": 431,
+      "global_sample_id_start": 864,
+      "global_sample_id_end_inclusive": 1294,
+      "spawn_key": [
+        2
+      ],
+      "seed_words_uint32_little_endian": [
+        2662197660,
+        2460252214,
+        1354213230,
+        232180825
+      ],
+      "cli_seed_decimal": "18395260160776793056155821840230377884",
+      "initial_pcg64_state_decimal128": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": "118617759169170325014074940723749117631",
+          "inc": "41456360463882454333736323574409006551"
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "first_64_random_raw_uint64_little_endian_sha256": "e6f73548141d328098b7140d900c1fc62b17fa29b8a7ac1b5dd802358e413aed"
+    },
+    {
+      "group_id": 3,
+      "sample_count": 431,
+      "global_sample_id_start": 1295,
+      "global_sample_id_end_inclusive": 1725,
+      "spawn_key": [
+        3
+      ],
+      "seed_words_uint32_little_endian": [
+        954490768,
+        3480630184,
+        1018907710,
+        252159851
+      ],
+      "cli_seed_decimal": "19978161673396210518250404331567472528",
+      "initial_pcg64_state_decimal128": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": "192324370481246651039198554979452902181",
+          "inc": "159251747324022998607070239944868308649"
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "first_64_random_raw_uint64_little_endian_sha256": "309518f90cf557828140882385ac482da4698826ad3daa87cb73c4bd245db693"
+    }
+  ]
+}

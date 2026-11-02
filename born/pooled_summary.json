@@ -1,0 +1,94 @@
+{
+  "scope": "Independent two-seed audit for the same fixed RGS70 conditional-Born sampler; pooled statistic is descriptive and was computed only after both fixed runs completed.",
+  "seed1": {
+    "sample_count": 1726,
+    "source_csv": "work/rgs_attack/born_cluster_run/exact_timing_20261101/analysis/samples.csv",
+    "source_sha256": "f0ece0ab04ab02b9e556788260a0e8505aa7bcafebb1f77492adeccf0cf3d541",
+    "score": {
+      "n": 1726,
+      "mean": 1.0962172205200755,
+      "standard_error": 0.03516883865511179,
+      "normal_95_CI_approximate": [
+        1.0272862967560563,
+        1.1651481442840947
+      ],
+      "bootstrap_95_CI_approximate": [
+        1.0278752155260096,
+        1.1666491245464043
+      ],
+      "bootstrap_resamples": 20000,
+      "bootstrap_seed": 424242,
+      "min": -0.9787460536416709,
+      "max": 7.9413176890979695,
+      "clipped_K4_mean": 0.9641960818852437,
+      "clipped_K4_one_sided_Hoeffding_lower_alpha_0_05": 0.846360596010145
+    }
+  },
+  "seed2": {
+    "sample_count": 1726,
+    "source_csv": "work/rgs_attack/born_seed2_cluster_run/analysis_seed2_offset/samples.csv",
+    "source_sha256": "ffbc3e0ac362ebf09a6c52c154e5f3165d1c4bd626591c1f12b61c59dd610d5a",
+    "score": {
+      "n": 1726,
+      "mean": 0.9531004987942533,
+      "standard_error": 0.03297526061246503,
+      "normal_95_CI_approximate": [
+        0.8884689879938218,
+        1.0177320095946847
+      ],
+      "bootstrap_95_CI_approximate": [
+        0.8888263214851129,
+        1.017931047341643
+      ],
+      "bootstrap_resamples": 20000,
+      "bootstrap_seed": 424242,
+      "min": -0.98103091344216,
+      "max": 9.652160486607194,
+      "clipped_K4_mean": 0.859164734787152,
+      "clipped_K4_one_sided_Hoeffding_lower_alpha_0_05": 0.7413292489120533
+    }
+  },
+  "pooled": {
+    "sample_count": 3452,
+    "score": {
+      "n": 3452,
+      "mean": 1.0246588596571644,
+      "standard_error": 0.024132326558723743,
+      "normal_95_CI_approximate": [
+        0.9773594996020659,
+        1.071958219712263
+      ],
+      "bootstrap_95_CI_approximate": [
+        0.977509516351896,
+        1.072553721090388
+      ],
+      "bootstrap_resamples": 20000,
+      "bootstrap_seed": 424242,
+      "min": -0.98103091344216,
+      "max": 9.652160486607194,
+      "clipped_K4_mean": 0.911680408336198,
+      "clipped_K4_one_sided_Hoeffding_lower_alpha_0_05": 0.8283581372095041
+    }
+  },
+  "difference_seed1_minus_seed2": {
+    "estimate": 0.14311672172582224,
+    "standard_error_independent": 0.048210113304256744,
+    "bootstrap_95_CI": [
+      0.049132253920802095,
+      0.2374627834480634
+    ],
+    "bootstrap_resamples": 20000,
+    "bootstrap_seed": 424242
+  },
+  "validation": {
+    "seed1_summary": "work/rgs_attack/born_cluster_run/exact_timing_20261101/analysis/summary.json",
+    "seed2_summary": "work/rgs_attack/born_seed2_cluster_run/analysis_seed2_offset/summary.json",
+    "seed1_validation_passed": true,
+    "seed2_validation_passed": true,
+    "each_samples": 1726,
+    "pooled_samples": 3452,
+    "seed2_global_id_offset": 1726,
+    "cross_batch_duplicate_bitstrings": 0
+  },
+  "interpretation": "The first batch is the predeclared timed challenge result. The second independent seed is a bias diagnostic and is not used to select a higher score. The pooled mean is near the Porter-Thomas reference value 1; neither batch threatens the QAT K=4 lower-bound threshold."
+}

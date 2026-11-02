@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "status": "Frozen independent second production random streams; not a continuation or replacement of seed 1",
+  "seed_id": 2,
+  "created_at_utc": "2026-11-01T13:59:56.144887+00:00",
+  "seed_domain": "RGS70 full-rank35 Fourier conditional Born production, independent second batch of 1726 outputs",
+  "root_entropy": [
+    20261101,
+    70,
+    35,
+    1726,
+    2
+  ],
+  "generator": "PCG64",
+  "numpy_version_used_to_generate_manifest": "2.0.2",
+  "construction": "children=SeedSequence(root_entropy).spawn(4); w=child.generate_state(4,dtype=uint32); seed=sum(int(w[j])<<(32*j) for j in range(4)); rng=Generator(PCG64(seed))",
+  "important": "Pass int(cli_seed_decimal) to PCG64. PCG64 internal 128-bit state/inc are decimal strings here; convert them to int before state restoration.",
+  "sample_protocol": "Fresh rng.integers(0,2,35) for B, then three rng.random() values: auxiliary shard, local index, terminal global bit. Save rngstate_before and rngstate_after for every output.",
+  "total_samples": 1726,
+  "merge_order": "group_id ascending, then local_sample_id ascending",
+  "independence": "Different SeedSequence root entropy from seed 1; no shared B stream or output reuse; no XEB-based filtering.",
+  "rules": [
+    "No pilot/warmup consumption of production RNG.",
+    "No sample/seed selection by XEB.",
+    "Preserve repeated bitstrings.",
+    "Recovery restores RNG state for the same unfinished sample, with failures and elapsed time retained.",
+    "Do not merge this batch into seed 1 before independent per-batch audit."
+  ],
+  "groups": [
+    {
+      "group_id": 0,
+      "sample_count": 432,
+      "global_sample_id_start": 1726,
+      "global_sample_id_end_inclusive": 2157,
+      "spawn_key": [
+        0
+      ],
+      "seed_words_uint32_little_endian": [
+        1282646925,
+        3925363800,
+        597085351,
+        1366874849
+      ],
+      "cli_seed_decimal": "108294982684246807471177757136260408205",
+      "initial_pcg64_state_decimal128": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": "48913687882613109687902356638373884961",
+          "inc": "54133428416793892039682645857606788029"
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "first_64_random_raw_uint64_little_endian_sha256": "62afbc765eebc46ecf4de46d88dbdf7e5c8e9fb27a7b8d87e72b52f061910f99"
+    },
+    {
+      "group_id": 1,
+      "sample_count": 432,
+      "global_sample_id_start": 2158,
+      "global_sample_id_end_inclusive": 2589,
+      "spawn_key": [
+        1
+      ],
+      "seed_words_uint32_little_endian": [
+        1259622207,
+        1530415273,
+        2126812507,
+        2662399377
+      ],
+      "cli_seed_decimal": "210937010558064892038335780407049735999",
+      "initial_pcg64_state_decimal128": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": "16118558433752675117613651766028448948",
+          "inc": "248776485767499906697524843893019000725"
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "first_64_random_raw_uint64_little_endian_sha256": "a8b67e71ad013d6fd9ce88680fe401162a481cdf8be5844435a7f49c0163600c"
+    },
+    {
+      "group_id": 2,
+      "sample_count": 431,
+      "global_sample_id_start": 2590,
+      "global_sample_id_end_inclusive": 3020,
+      "spawn_key": [
+        2
+      ],
+      "seed_words_uint32_little_endian": [
+        2601367862,
+        3995041440,
+        3864433884,
+        2595928674
+      ],
+      "cli_seed_decimal": "205670658930396950839774855129337805110",
+      "initial_pcg64_state_decimal128": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": "243059593552538345403311012330085610040",
+          "inc": "254318592470979806528475512103975493459"
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "first_64_random_raw_uint64_little_endian_sha256": "1dd67cf95e31a47590b58b2cbc681bdd62bcb7066ae7df0f0eaccc1cb5fef647"
+    },
+    {
+      "group_id": 3,
+      "sample_count": 431,
+      "global_sample_id_start": 3021,
+      "global_sample_id_end_inclusive": 3451,
+      "spawn_key": [
+        3
+      ],
+      "seed_words_uint32_little_endian": [
+        1244586598,
+        1657900690,
+        161935526,
+        4193343487
+      ],
+      "cli_seed_decimal": "332230899269155087855940945646688592486",
+      "initial_pcg64_state_decimal128": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": "16225413138074805085101274093405121540",
+          "inc": "138413957423624576389777518037060866293"
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "first_64_random_raw_uint64_little_endian_sha256": "cf957928ac54cf55958858091065ab2c019ffd4c9e5f23c679550c04ad46e0d6"
+    }
+  ]
+}

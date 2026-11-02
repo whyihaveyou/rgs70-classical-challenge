@@ -1,0 +1,11 @@
+{
+  "sample_seconds": [
+    2.4149824290070683,
+    2.415249862940982,
+    2.4173432819079608,
+    2.4170732831116766
+  ],
+  "max_fp64_relative_error": 4.827049573803983e-07,
+  "pilot_wall_seconds": 22,
+  "status": "four-sample pilot only"
+}

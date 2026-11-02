@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-10-30T16:29:45.469442+00:00",
+  "status": "Frozen before first production output; stage3 GPU pilot passed",
+  "engine": "specialized_deferred",
+  "graph": "rgs_graph.npz",
+  "seed_manifest": "production_seed_manifest.json",
+  "total_samples": 1726,
+  "group_counts": [
+    432,
+    432,
+    431,
+    431
+  ],
+  "max_concurrent_GPUs": 8,
+  "GPUs_per_group": 2,
+  "runtime_budget_per_group_seconds": 1800,
+  "comparison_budget_seconds": 1950,
+  "comparison_scope": "Actual central launcher elapsed including submit/deploy/queue/production/scoring/collection will be reported separately from prepared-worker spans; no raw-QASM cold-start claim",
+  "rng_generator": "PCG64",
+  "rng_schedule": "fresh 35 B integers, then 3 uniforms: auxiliary block, local index, terminal global bit",
+  "uniforms_per_sample": 3,
+  "seed_manifest_note": "Original seed manifest text described two uniforms for a previous sampler; this frozen algorithm manifest explicitly supersedes that call schedule, without changing the initial seed streams.",
+  "dtype": "complex64 with float64 mass reduction and complex128 terminal 2x2 unitary",
+  "independent_scoring": "all 1726 outputs via reverse-order complex128 scan, after each production process releases state memory",
+  "quality_thresholds": {
+    "norm_abs_error_max": 0.001,
+    "FP64_probability_relative_error_max": 0.0001
+  },
+  "preselected_statistic": {
+    "K": 4,
+    "Hoeffding_one_sided_alpha": 0.05,
+    "XEB_threshold": 0.092,
+    "bootstrap_replicates": 20000,
+    "bootstrap_seed": 424242
+  },
+  "rules": [
+    "One new B for each output; no repeated conditional-state multi-sample batches",
+    "No seed changes, output filtering, deduplication, quality-based stopping or replacement",
+    "If a numerical check fails, stop and retain all logs; do not skip the failed sample",
+    "All results reported, regardless of threshold or runtime outcome"
+  ],
+  "files": {
+    "born_production.py": "b72524b31b23869c06a72f35e093038575e906db0f4419cb0ebf1a13c70f2e19",
+    "run_born_production.sh": "cc4d0df4dc9fafb7afc2dee7c91121fd7811f2100d0d89656b49c4c892d28f0d",
+    "run_born_archive.sh": "fc55e7c48f69558a2fdf1b6218d80776f4cb99f41cb435fe3db2196366553ae0",
+    "production_seed_manifest.json": "07418984166e197d3a88689de37b834befbebb6e5474227e7c770e627464e3df",
+    "specialized_deferred_sampler.py": "17aab576bb5fe3be5cde17f2383f3fa6965feb56f67154201291b63c690bbf66",
+    "init_specialization.py": "787956e7fc354f30c293c773b1de06c8cf0de7626908c269d2aa02651d981400",
+    "deferred_global_sampler.py": "c5e4a50efd4a637c63a3eabc1965efb95ab871e18610286f30a740a0ab0a8e6f",
+    "fourier_fused_sampler.py": "eb9613d2264ad2d0171037f02c432e770510afcbc31c5742501d121fdd2f2550",
+    "fourier_covariant_sampler.py": "0af702a1445bfca7379dc2445c9e95785991937358d299043faff4c2a980cfbd",
+    "distributed_sampler.py": "1461dd909b7d5a387cd300e24544d72e4461a71ea4bdec4af92622825ad17a0e",
+    "graph_sampler.py": "5cc8c2b9d3f478b620afc562053fd84447fee1c1c84beae0bc24f05c9612e78f",
+    "scan_oracle.py": "741ed61352d0141b7f9e2991c827f662410c02892022a78cd8fa4b9b797db37c",
+    "rgs_graph.npz": "4d6879f0acaece72f83d0e46a122df7a9471671bc90a454e7dc88e11e229c7b0",
+    "scan_order.npy": "b9613a3c07c0cac3d16abfd88482abe1c6ce1b08bd8684905cefeb042a548c45",
+    "upstream_scan/scan_plan.py": "0252480a785530c18b5496d97e4b6cbd113f9465f1c46acd4f38573c43d2e8e2",
+    "upstream_scan/gpu_kernel_fp64.py": "54c332eee08ea322ad714d836e542a2d321c542f417eac18680e3a8654521d69"
+  }
+}

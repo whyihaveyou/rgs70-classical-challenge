@@ -1,0 +1,438 @@
+{
+  "scope": "Independent audit of one fixed conditional Born production run; finite-precision consistency, not a global TV or quantum-state fidelity certificate",
+  "validation_passed": true,
+  "expected_samples": 1726,
+  "matched_scored_samples": 1726,
+  "failures": [],
+  "warnings": [
+    "Seed manifest retains the earlier two-uniform description; final production manifest and logs explicitly require three. Seeds/initial states are unchanged."
+  ],
+  "groups": [
+    {
+      "group_id": 0,
+      "expected_count": 432,
+      "observed_count": 432,
+      "fp64_count": 432,
+      "audit_passed": true,
+      "score": {
+        "n": 432,
+        "mean": 1.1148615523249406,
+        "standard_error": 0.06945811981574661,
+        "normal_95_CI_approximate": [
+          0.9787236374860773,
+          1.2509994671638038
+        ],
+        "bootstrap_95_CI_approximate": [
+          0.9815591611759305,
+          1.2538571273098387
+        ],
+        "bootstrap_resamples": 20000,
+        "bootstrap_seed": 424242,
+        "min": -0.9237251935455935,
+        "max": 7.9413176890979695,
+        "clipped_K4_mean": 0.9909908115584676,
+        "clipped_K4_one_sided_Hoeffding_lower_alpha_0_05": 0.7554562629581971,
+        "primary_predeclared_test": false,
+        "Hoeffding_scope": "Per-group diagnostic only; no additional success claim or multiplicity-adjusted test.",
+        "primary_lower_above_QAT_0_092": null
+      },
+      "timing": {
+        "generation_seconds": 1043.7403627093881,
+        "process_elapsed_seconds": 1045.7370303636417,
+        "setup_seconds": 1.9721060832962394,
+        "process_to_ready_seconds": 1.9964739857241511,
+        "generation_start_unix": 1793507828.7206821,
+        "generation_end_unix": 1793508872.4610436,
+        "process_start_unix": 1793507826.7240148,
+        "fp64_oracle_seconds_sum": 56.86362949386239,
+        "fp64_setup_seconds": 0.8051526825875044,
+        "recorded_script_span_seconds": 1104.0
+      },
+      "errors": {
+        "norm_absolute_error": {
+          "n": 432,
+          "max": 2.3168226959136007e-07,
+          "p99": 2.3161450961373121e-07,
+          "median": 2.2881968175791911e-07
+        },
+        "raw_relative_error": {
+          "n": 432,
+          "max": 2.533991526688968e-06,
+          "p99": 1.5505212144945386e-06,
+          "median": 3.6203181070089443e-07
+        },
+        "normalized_relative_error": {
+          "n": 432,
+          "max": 2.303028056956467e-06,
+          "p99": 1.5674477977165351e-06,
+          "median": 3.26466649217767e-07
+        },
+        "raw_scaled_absolute_error": {
+          "n": 432,
+          "max": 5.801450795317464e-06,
+          "p99": 4.604092503459611e-06,
+          "median": 5.53323337926237e-07
+        },
+        "normalized_scaled_absolute_error": {
+          "n": 432,
+          "max": 4.659203159285141e-06,
+          "p99": 3.63221987769613e-06,
+          "median": 5.290403378710451e-07
+        }
+      }
+    },
+    {
+      "group_id": 1,
+      "expected_count": 432,
+      "observed_count": 432,
+      "fp64_count": 432,
+      "audit_passed": true,
+      "score": {
+        "n": 432,
+        "mean": 1.0978833492114015,
+        "standard_error": 0.07038451570474315,
+        "normal_95_CI_approximate": [
+          0.9599296984301049,
+          1.2358369999926981
+        ],
+        "bootstrap_95_CI_approximate": [
+          0.9616322288081787,
+          1.2372185765319115
+        ],
+        "bootstrap_resamples": 20000,
+        "bootstrap_seed": 424242,
+        "min": -0.9193034204033521,
+        "max": 6.632493407057861,
+        "clipped_K4_mean": 0.9661433980154976,
+        "clipped_K4_one_sided_Hoeffding_lower_alpha_0_05": 0.7306088494152272,
+        "primary_predeclared_test": false,
+        "Hoeffding_scope": "Per-group diagnostic only; no additional success claim or multiplicity-adjusted test.",
+        "primary_lower_above_QAT_0_092": null
+      },
+      "timing": {
+        "generation_seconds": 1052.1730967117473,
+        "process_elapsed_seconds": 1054.0402214629576,
+        "setup_seconds": 1.8460942739620805,
+        "process_to_ready_seconds": 1.8669571159407496,
+        "generation_start_unix": 1793507826.803036,
+        "generation_end_unix": 1793508878.9761317,
+        "process_start_unix": 1793507824.9359117,
+        "fp64_oracle_seconds_sum": 56.73306795954704,
+        "fp64_setup_seconds": 0.7368294978514314,
+        "recorded_script_span_seconds": 1113.0
+      },
+      "errors": {
+        "norm_absolute_error": {
+          "n": 432,
+          "max": 2.316774287969281e-07,
+          "p99": 2.316044502270742e-07,
+          "median": 2.3096642243203291e-07
+        },
+        "raw_relative_error": {
+          "n": 432,
+          "max": 3.0333703158689267e-06,
+          "p99": 1.746129012291415e-06,
+          "median": 3.772531591880796e-07
+        },
+        "normalized_relative_error": {
+          "n": 432,
+          "max": 3.2608593273048297e-06,
+          "p99": 1.7533906063990544e-06,
+          "median": 2.9411004656535763e-07
+        },
+        "raw_scaled_absolute_error": {
+          "n": 432,
+          "max": 4.63745067769139e-06,
+          "p99": 3.695468596207618e-06,
+          "median": 5.808826729625238e-07
+        },
+        "normalized_scaled_absolute_error": {
+          "n": 432,
+          "max": 3.7933520644628516e-06,
+          "p99": 3.171749447608007e-06,
+          "median": 4.6266078440604375e-07
+        }
+      }
+    },
+    {
+      "group_id": 2,
+      "expected_count": 431,
+      "observed_count": 431,
+      "fp64_count": 431,
+      "audit_passed": true,
+      "score": {
+        "n": 431,
+        "mean": 1.0594782156500666,
+        "standard_error": 0.0672337801021929,
+        "normal_95_CI_approximate": [
+          0.9277000066497685,
+          1.1912564246503647
+        ],
+        "bootstrap_95_CI_approximate": [
+          0.92751865149754,
+          1.1916725760975813
+        ],
+        "bootstrap_resamples": 20000,
+        "bootstrap_seed": 424242,
+        "min": -0.8635831214303191,
+        "max": 7.14461466703221,
+        "clipped_K4_mean": 0.9461432973296042,
+        "clipped_K4_one_sided_Hoeffding_lower_alpha_0_05": 0.7103356651030044,
+        "primary_predeclared_test": false,
+        "Hoeffding_scope": "Per-group diagnostic only; no additional success claim or multiplicity-adjusted test.",
+        "primary_lower_above_QAT_0_092": null
+      },
+      "timing": {
+        "generation_seconds": 1042.8181384201162,
+        "process_elapsed_seconds": 1044.7281188899651,
+        "setup_seconds": 1.8863771189935505,
+        "process_to_ready_seconds": 1.909784174989909,
+        "generation_start_unix": 1793507828.0453274,
+        "generation_end_unix": 1793508870.8634644,
+        "process_start_unix": 1793507826.1353471,
+        "fp64_oracle_seconds_sum": 56.66986980638467,
+        "fp64_setup_seconds": 0.681563766207546,
+        "recorded_script_span_seconds": 1103.0
+      },
+      "errors": {
+        "norm_absolute_error": {
+          "n": 431,
+          "max": 2.3166313845024433e-07,
+          "p99": 2.315911233896628e-07,
+          "median": 2.3092589240825134e-07
+        },
+        "raw_relative_error": {
+          "n": 431,
+          "max": 2.7536194333464728e-06,
+          "p99": 1.4432483905974951e-06,
+          "median": 3.7927447336644367e-07
+        },
+        "normalized_relative_error": {
+          "n": 431,
+          "max": 2.522124377079773e-06,
+          "p99": 1.271311065762677e-06,
+          "median": 3.395984668380108e-07
+        },
+        "raw_scaled_absolute_error": {
+          "n": 431,
+          "max": 5.86537292424083e-06,
+          "p99": 3.863043977148094e-06,
+          "median": 5.903474367130457e-07
+        },
+        "normalized_scaled_absolute_error": {
+          "n": 431,
+          "max": 4.9687108845120065e-06,
+          "p99": 3.7504320062886595e-06,
+          "median": 5.450888975744306e-07
+        }
+      }
+    },
+    {
+      "group_id": 3,
+      "expected_count": 431,
+      "observed_count": 431,
+      "fp64_count": 431,
+      "audit_passed": true,
+      "score": {
+        "n": 431,
+        "mean": 1.1125986408556197,
+        "standard_error": 0.0743051494053371,
+        "normal_95_CI_approximate": [
+          0.9669605480211589,
+          1.2582367336900804
+        ],
+        "bootstrap_95_CI_approximate": [
+          0.9700230876859329,
+          1.2622126821004183
+        ],
+        "bootstrap_resamples": 20000,
+        "bootstrap_seed": 424242,
+        "min": -0.9787460536416709,
+        "max": 7.800415007410923,
+        "clipped_K4_mean": 0.953440133756192,
+        "clipped_K4_one_sided_Hoeffding_lower_alpha_0_05": 0.7176325015295921,
+        "primary_predeclared_test": false,
+        "Hoeffding_scope": "Per-group diagnostic only; no additional success claim or multiplicity-adjusted test.",
+        "primary_lower_above_QAT_0_092": null
+      },
+      "timing": {
+        "generation_seconds": 1041.1506721926853,
+        "process_elapsed_seconds": 1043.0447642058134,
+        "setup_seconds": 1.8726255800575018,
+        "process_to_ready_seconds": 1.8939081719145179,
+        "generation_start_unix": 1793507827.2661812,
+        "generation_end_unix": 1793508868.416852,
+        "process_start_unix": 1793507825.3720894,
+        "fp64_oracle_seconds_sum": 56.878778860904276,
+        "fp64_setup_seconds": 0.6711416533216834,
+        "recorded_script_span_seconds": 1101.0
+      },
+      "errors": {
+        "norm_absolute_error": {
+          "n": 431,
+          "max": 2.3170007157347072e-07,
+          "p99": 2.3158904511877408e-07,
+          "median": 2.2964215329324134e-07
+        },
+        "raw_relative_error": {
+          "n": 431,
+          "max": 2.6406774777845248e-06,
+          "p99": 1.6618101734574464e-06,
+          "median": 3.773833335227834e-07
+        },
+        "normalized_relative_error": {
+          "n": 431,
+          "max": 2.409142943143484e-06,
+          "p99": 1.7782551504046466e-06,
+          "median": 3.427333941068538e-07
+        },
+        "raw_scaled_absolute_error": {
+          "n": 431,
+          "max": 5.13956410141958e-06,
+          "p99": 3.882513928399331e-06,
+          "median": 5.995301930461494e-07
+        },
+        "normalized_scaled_absolute_error": {
+          "n": 431,
+          "max": 5.022698267076464e-06,
+          "p99": 3.4173337272846983e-06,
+          "median": 4.994462245999642e-07
+        }
+      }
+    }
+  ],
+  "score": {
+    "n": 1726,
+    "mean": 1.0962172205200755,
+    "standard_error": 0.03516883865511179,
+    "normal_95_CI_approximate": [
+      1.0272862967560563,
+      1.1651481442840947
+    ],
+    "bootstrap_95_CI_approximate": [
+      1.0278752155260096,
+      1.1666491245464043
+    ],
+    "bootstrap_resamples": 20000,
+    "bootstrap_seed": 424242,
+    "min": -0.9787460536416709,
+    "max": 7.9413176890979695,
+    "clipped_K4_mean": 0.9641960818852437,
+    "clipped_K4_one_sided_Hoeffding_lower_alpha_0_05": 0.846360596010145,
+    "primary_predeclared_test": true,
+    "Hoeffding_scope": "Single pooled production-run test; independent observations and valid target probabilities required. Numerical probability error is not formally bounded.",
+    "primary_lower_above_QAT_0_092": true
+  },
+  "statistics_valid_only_if_audit_passes": true,
+  "errors": {
+    "norm_absolute_error": {
+      "n": 1726,
+      "max": 2.3170007157347072e-07,
+      "p99": 2.316009698466459e-07,
+      "median": 2.3088956668804173e-07
+    },
+    "raw_relative_error": {
+      "n": 1726,
+      "max": 3.0333703158689267e-06,
+      "p99": 1.6267116867621372e-06,
+      "median": 3.7489480206207184e-07
+    },
+    "normalized_relative_error": {
+      "n": 1726,
+      "max": 3.2608593273048297e-06,
+      "p99": 1.6288311603860183e-06,
+      "median": 3.252110707275974e-07
+    },
+    "raw_scaled_absolute_error": {
+      "n": 1726,
+      "max": 5.86537292424083e-06,
+      "p99": 4.1241312013218234e-06,
+      "median": 5.837434781663653e-07
+    },
+    "normalized_scaled_absolute_error": {
+      "n": 1726,
+      "max": 5.022698267076464e-06,
+      "p99": 3.569500888089827e-06,
+      "median": 5.112592229572499e-07
+    }
+  },
+  "duplicate_complete_bitstrings_preserved": 0,
+  "timing": {
+    "generation_seconds_sum": 4179.882270033937,
+    "process_seconds_sum": 4187.550134922378,
+    "generation_GPU_seconds_2_per_group": 8359.764540067874,
+    "process_GPU_seconds_2_per_group": 8375.100269844756,
+    "generation_GPU_hours_2_per_group": 2.3221568166855207,
+    "process_GPU_hours_2_per_group": 2.326416741623543,
+    "independent_FP64_oracle_seconds_sum": 227.14534612069838,
+    "independent_FP64_oracle_GPU_seconds_one_device_each": 227.14534612069838,
+    "script_GPU_seconds_2_per_group": 8842.0,
+    "maximum_worker_generation_seconds_NOT_central_span": 1052.1730967117473,
+    "central_launch_to_return_seconds": 1265.1139836250002,
+    "central_span_source": "external ledger only",
+    "scope": "Process timer begins inside Python main, after top-level imports; generation excludes setup. GPU-seconds assume two held devices per group and do not certify scheduler allocation duration. Script spans include scoring where available. FP64 oracle sums exclude scorer startup unless separately reported."
+  },
+  "external_ledger": {
+    "job": "qat-rgs70-born-timing-1101-11355451",
+    "terminal": "Succeeded",
+    "central_start_unix": 1793507706.327281,
+    "central_end_unix": 1793508971.457741,
+    "central_monotonic_submit_to_terminal_observed_seconds": 1258.9246406250002,
+    "central_monotonic_submit_to_all_logs_returned_seconds": 1265.1139836250002,
+    "clock_scope": "One local monotonic clock, including SSH, source packaging, scheduling, startup, sampling, FP64 scoring, polling delay and log return. Does not include earlier algorithm research/pilot/CPU preprocessing.",
+    "poll_seconds": 30,
+    "total_GPUs": 8,
+    "groups": 4,
+    "log_return_code": 0
+  },
+  "external_ledger_field_mapping": {
+    "central_launch_to_return_seconds_from": "central_monotonic_submit_to_all_logs_returned_seconds",
+    "timer_scope_from": "clock_scope",
+    "reported_scope": "One local monotonic clock, including SSH, source packaging, scheduling, startup, sampling, FP64 scoring, polling delay and log return. Does not include earlier algorithm research/pilot/CPU preprocessing.",
+    "note": "Canonical field alias only; original external ledger is retained unchanged."
+  },
+  "input_sha256": {
+    "work/rgs_attack/born_cluster_run/exact_timing_20261101/production_artifact/production_seed_manifest.json": "07418984166e197d3a88689de37b834befbebb6e5474227e7c770e627464e3df",
+    "work/rgs_attack/born_cluster_run/exact_timing_20261101/production_artifact/born_production_manifest.json": "80abefdb935eb2b794812751025f3a166cab93b07113de61ddd8a1cbe57f96ce",
+    "work/rgs_attack/born_production.py": "b72524b31b23869c06a72f35e093038575e906db0f4419cb0ebf1a13c70f2e19",
+    "work/rgs_attack/run_born_production.sh": "cc4d0df4dc9fafb7afc2dee7c91121fd7811f2100d0d89656b49c4c892d28f0d",
+    "work/rgs_attack/run_born_archive.sh": "fc55e7c48f69558a2fdf1b6218d80776f4cb99f41cb435fe3db2196366553ae0",
+    "work/rgs_attack/production_seed_manifest.json": "07418984166e197d3a88689de37b834befbebb6e5474227e7c770e627464e3df",
+    "work/rgs_attack/specialized_deferred_sampler.py": "17aab576bb5fe3be5cde17f2383f3fa6965feb56f67154201291b63c690bbf66",
+    "work/rgs_attack/init_specialization.py": "787956e7fc354f30c293c773b1de06c8cf0de7626908c269d2aa02651d981400",
+    "work/rgs_attack/deferred_global_sampler.py": "c5e4a50efd4a637c63a3eabc1965efb95ab871e18610286f30a740a0ab0a8e6f",
+    "work/rgs_attack/fourier_fused_sampler.py": "eb9613d2264ad2d0171037f02c432e770510afcbc31c5742501d121fdd2f2550",
+    "work/rgs_attack/fourier_covariant_sampler.py": "0af702a1445bfca7379dc2445c9e95785991937358d299043faff4c2a980cfbd",
+    "work/rgs_attack/distributed_sampler.py": "1461dd909b7d5a387cd300e24544d72e4461a71ea4bdec4af92622825ad17a0e",
+    "work/rgs_attack/graph_sampler.py": "5cc8c2b9d3f478b620afc562053fd84447fee1c1c84beae0bc24f05c9612e78f",
+    "work/rgs_attack/scan_oracle.py": "741ed61352d0141b7f9e2991c827f662410c02892022a78cd8fa4b9b797db37c",
+    "work/rgs_attack/rgs_graph.npz": "4d6879f0acaece72f83d0e46a122df7a9471671bc90a454e7dc88e11e229c7b0",
+    "work/rgs_attack/scan_order.npy": "b9613a3c07c0cac3d16abfd88482abe1c6ce1b08bd8684905cefeb042a548c45",
+    "work/rgs_attack/upstream_scan/scan_plan.py": "0252480a785530c18b5496d97e4b6cbd113f9465f1c46acd4f38573c43d2e8e2",
+    "work/rgs_attack/upstream_scan/gpu_kernel_fp64.py": "54c332eee08ea322ad714d836e542a2d321c542f417eac18680e3a8654521d69",
+    "work/rgs_attack/born_cluster_run/exact_timing_20261101/production_artifact/born_group0.jsonl": "519a1b1e6bb6ea38732965dccf6a3341dcd276593c10d106cc4a7e1468cfefe3",
+    "work/rgs_attack/born_cluster_run/exact_timing_20261101/production_artifact/born_group0_fp64.jsonl": "b97c2cee20834967f620eb8585d8364c0f677457989084e81c1b38d7c46c1a2d",
+    "work/rgs_attack/born_cluster_run/exact_timing_20261101/production_artifact/born_group0_start_unix.txt": "e6668d26673acff489e1fc19ddb4f8a89dd58919dc0d9660f748d3c83458f7f3",
+    "work/rgs_attack/born_cluster_run/exact_timing_20261101/production_artifact/born_group0_end_unix.txt": "9692ba1b5beebdbdce2aa89e439d769b00392602357d985bf90ad17773ea6353",
+    "work/rgs_attack/born_cluster_run/exact_timing_20261101/production_artifact/born_group0_exit.json": "273e544435f3441c4d90d8d104f8a28065a7b55721f5eab48536ceee186f36d6",
+    "work/rgs_attack/born_cluster_run/exact_timing_20261101/production_artifact/born_group1.jsonl": "37cc95bfad64b218171a56857c8144206885d31dea8ad4de2a544076383c1e69",
+    "work/rgs_attack/born_cluster_run/exact_timing_20261101/production_artifact/born_group1_fp64.jsonl": "2bfb9ddf4b6dc4a10d98c1004ce4a21dc5ca6c4ad370d188859d5ca51c1da1db",
+    "work/rgs_attack/born_cluster_run/exact_timing_20261101/production_artifact/born_group1_start_unix.txt": "361729579ad94e576d701d63d31714fa922dfc9444e5ddf2fe8c17e622db1f7f",
+    "work/rgs_attack/born_cluster_run/exact_timing_20261101/production_artifact/born_group1_end_unix.txt": "1c3af535400b0a973d33f7d6aed05e3c25194aedba7f167c06defb35f2e315e8",
+    "work/rgs_attack/born_cluster_run/exact_timing_20261101/production_artifact/born_group1_exit.json": "273e544435f3441c4d90d8d104f8a28065a7b55721f5eab48536ceee186f36d6",
+    "work/rgs_attack/born_cluster_run/exact_timing_20261101/production_artifact/born_group2.jsonl": "fc3ff4ef8d648c1a00aac13ab770db2523592c2fa73620175c806354f35b3599",
+    "work/rgs_attack/born_cluster_run/exact_timing_20261101/production_artifact/born_group2_fp64.jsonl": "604441de3d338baed3fce3c9a5d8579c4665c2524b0e0b67b1677c0a68bf9d66",
+    "work/rgs_attack/born_cluster_run/exact_timing_20261101/production_artifact/born_group2_start_unix.txt": "26bcba1285226ccc4d9ad2113a10bd3bb01801e4983d211e0247cd4da41a0432",
+    "work/rgs_attack/born_cluster_run/exact_timing_20261101/production_artifact/born_group2_end_unix.txt": "06ac5a61b96fdf97bb2292520572896f79247610b1e8b8fb970d4bd3c962e18f",
+    "work/rgs_attack/born_cluster_run/exact_timing_20261101/production_artifact/born_group2_exit.json": "273e544435f3441c4d90d8d104f8a28065a7b55721f5eab48536ceee186f36d6",
+    "work/rgs_attack/born_cluster_run/exact_timing_20261101/production_artifact/born_group3.jsonl": "1ad80a1ac1ef6fe488efb1de0b8819b1c0773e4e253c084b4b13cd5cbc2ae25b",
+    "work/rgs_attack/born_cluster_run/exact_timing_20261101/production_artifact/born_group3_fp64.jsonl": "1b8f3da9b66c3792841e879555a8d3d7f987922a5021360d88ca04e11f40c8c3",
+    "work/rgs_attack/born_cluster_run/exact_timing_20261101/production_artifact/born_group3_start_unix.txt": "26bcba1285226ccc4d9ad2113a10bd3bb01801e4983d211e0247cd4da41a0432",
+    "work/rgs_attack/born_cluster_run/exact_timing_20261101/production_artifact/born_group3_end_unix.txt": "4f7171dd7bca339903c08e7545e01132ecc463d7246579ec266f241a17116f47",
+    "work/rgs_attack/born_cluster_run/exact_timing_20261101/production_artifact/born_group3_exit.json": "273e544435f3441c4d90d8d104f8a28065a7b55721f5eab48536ceee186f36d6",
+    "work/rgs_attack/born_cluster_run/exact_timing_20261101/central_timing.json": "1903a4145fa92636382d636410be494c8397c313a46b0c98d1c02ebd1ff6be93"
+  },
+  "RNG_replay_limitation": "Replaying B and three uniforms verifies RNG consumption and logged mappings, not the unlogged full CDF/mass selection. GPU/CPU full-vector validation and independent probability scoring are separate evidence.",
+  "production_seed_manifest_sha256": "07418984166e197d3a88689de37b834befbebb6e5474227e7c770e627464e3df",
+  "production_manifest_sha256": "80abefdb935eb2b794812751025f3a166cab93b07113de61ddd8a1cbe57f96ce"
+}

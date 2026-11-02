@@ -1,25 +1,25 @@
 {
-  "scope": "Selected release directory only; no credential/config discovery",
-  "text_files_scanned": 83,
-  "patterns": [
-    "private_absolute_paths",
-    "private_cluster_identifiers",
-    "credential_material"
-  ],
+  "scope": "All release files; no credential/config discovery outside this directory",
+  "text_files_scanned": 174,
+  "patterns": {
+    "private_absolute_paths": "(^|[\\s\"\\'(=:])/(Users|home|data|workdir|var/folders|mnt|root)/",
+    "private_cluster_identifiers": "(?i)\\bpjlab\\b|\\bailab-|\\bchemagent\\b|\\bbrainctl\\b|\\.host\\.h\\b|\\bh200-\\d|\\b100\\.\\d+\\.\\d+\\.\\d+\\b|\\bqzp\\b",
+    "credential_material": "ghp_|github_pat_|AKIA[0-9A-Z]{8}|BEGIN (RSA |OPENSSH |EC )?PRIVATE KEY|(?i)password\\s*[:=]|(?i)\\btoken\\s*[:=]"
+  },
   "hits": [],
   "excluded_binary_types": [
     "npy",
     "npz",
-    "zip"
+    "zip",
+    "png",
+    "gz"
   ],
-  "binary_inputs": "Known graph/order arrays and public IBM sample archive, provenance in ORIGINAL_HASHES.json",
+  "binary_inputs": "Graph/order arrays, induced-subgraph fixtures, public IBM sample archive and the figure; provenance in ORIGINAL_HASHES.json and the production manifests",
   "excluded_artifacts": [
-    "GPU Born prototypes",
-    "private cluster runners",
-    "raw cluster logs",
-    "compiled optimizer binary",
-    "transport archives"
+    "scheduler submission scripts",
+    "SSH configuration",
+    "raw cluster logs and transport archives",
+    "compiled optimizer binary"
   ],
-  "raw_probability_records_preserved": true,
-  "independent_second_reviewer": "passed; 13 numerical JSONLs additionally compared byte-for-byte"
+  "raw_probability_records_preserved": true
 }
